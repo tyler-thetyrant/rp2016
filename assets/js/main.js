@@ -18,8 +18,7 @@
 		(function() {
 				var settings = {
 						images: {
-							'images/bg01.jpeg': 'center',
-							'images/bg02.jpeg': 'center',
+							'images/bg.png': 'center'
 						},
 						delay: 6000
 				};
