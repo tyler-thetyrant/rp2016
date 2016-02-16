@@ -1,4 +1,4 @@
 # rp2016
 Reflections Projections 2016
 
-_kickass website soon to come._
+[kickass website](http://acm-uiuc.github.io/rp2016/)
