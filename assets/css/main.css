@@ -65,6 +65,16 @@ a:hover, #footer
 	color: #51365B;
 	text-decoration: none;
 }
+.rp_button
+{
+	background-color: #584360;
+	border-color: #584360;
+}
+.rp_button:hover
+{
+	background-color: #674272;
+	border-color: #674272;
+}
 #main_row
 {
 	height:60vh;
