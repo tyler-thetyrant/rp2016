@@ -38,6 +38,11 @@ a#footer
 #title-h1
 {
 	font-size: 3em;
+	font-family: caviar_dreams_bold;
+}
+.schedule-day-title
+{
+	font-family: caviar_dreams_bold_italic;
 }
 #subtitle
 {
