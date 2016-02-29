@@ -37,7 +37,7 @@ a#footer
 }
 #title-h1
 {
-	font-size: 3em;
+	font-size: 2.5em;
 	font-family: caviar_dreams_bold;
 }
 .schedule-day-title
@@ -50,14 +50,24 @@ a#footer
 }
 .container-fluid
 {
-	padding-left: 10%;
-	padding-right: 10%;
+	/*padding-left: 10%;*/
+	/*padding-right: 10%;*/
 	padding-top: 5%;
 }
 #footer
 {
 	font-size: 2em;
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    padding-bottom:2%;
 }
+/*#footer-icons
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
 a, #footer
 {
 	color: rgba(255, 255, 255, .4);
@@ -82,7 +92,8 @@ a:hover, #footer
 }
 #main_row
 {
-	height:60vh;
+	/*height:60vh;*/
+	padding-top:10%;
 }
 #mce-EMAIL
 {
