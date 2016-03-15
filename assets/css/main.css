@@ -24,6 +24,7 @@
 html, body
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/bg.png");
+	height:100%;
 }
 body
 {
@@ -37,6 +38,15 @@ a#footer
 	/*color: white;*/
 	/*text-decoration: none;*/
 }
+.container
+{
+	min-height: 100%;
+	position: relative;
+}
+#main_row
+{
+	padding-bottom:100px;
+}
 @media screen and (max-width: 515px)
 {
 	#title-h1
@@ -46,14 +56,13 @@ a#footer
 		font-weight: bold;
 		font-color:red;
 	}
-	#footer
+	/*#footer
 	{
 		font-size: 2em;
-	    /*position: fixed;*/
 	    bottom: 0;
 	    width: inherit;
 	    padding-bottom:2%;
-	}
+	}*/
 }
 @media screen and (min-width: 515px)
 {
@@ -64,14 +73,23 @@ a#footer
 		font-weight: bold;
 		font-color:blue;
 	}
-	#footer
+/*	#footer
 	{
 		font-size: 2em;
 	    position: fixed;
 	    bottom: 0;
 	    width: inherit;
 	    padding-bottom:2%;
-	}
+	}*/
+}
+#footer
+{
+	font-size: 2em;
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    padding-bottom:2%;
+    height:100px;
 }
 .schedule-day-title
 {
