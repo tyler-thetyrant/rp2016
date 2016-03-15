@@ -35,10 +35,39 @@ a#footer
 	/*color: white;*/
 	/*text-decoration: none;*/
 }
-#title-h1
+@media screen and (max-width: 515px)
 {
-	font-size: 2.5em;
-	font-family: caviar_dreams_bold;
+	#title-h1
+	{
+		font-size: 24px;
+		font-family: caviar_dreams_bold;
+		font-color:red;
+	}
+	#footer
+	{
+		font-size: 2em;
+	    /*position: fixed;*/
+	    bottom: 0;
+	    width: inherit;
+	    padding-bottom:2%;
+	}
+}
+@media screen and (min-width: 515px)
+{
+	#title-h1
+	{
+		font-size: 2.5em;
+		font-family: caviar_dreams_bold;
+		font-color:blue;
+	}
+	#footer
+	{
+		font-size: 2em;
+	    position: fixed;
+	    bottom: 0;
+	    width: inherit;
+	    padding-bottom:2%;
+	}
 }
 .schedule-day-title
 {
@@ -53,14 +82,6 @@ a#footer
 	/*padding-left: 10%;*/
 	/*padding-right: 10%;*/
 	padding-top: 5%;
-}
-#footer
-{
-	font-size: 2em;
-    position: fixed;
-    bottom: 0;
-    width: inherit;
-    padding-bottom:2%;
 }
 /*#footer-icons
 {
