@@ -87,9 +87,15 @@ a#footer
 	font-size: 2em;
     position: absolute;
     bottom: 0;
-    width: inherit;
+    width: 100%;
     padding-bottom:2%;
     height:100px;
+}
+#footer_links
+{
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 .schedule-day-title
 {
@@ -133,11 +139,13 @@ a:hover, #footer
 {
 	background-color: #584360;
 	border-color: #584360;
+	color: white;
 }
 .rp_button:hover
 {
 	background-color: #674272;
 	border-color: #674272;
+	color: white;
 }
 #main_row
 {
@@ -160,4 +168,20 @@ a:hover, #footer
 .schedule
 {
 	font-size: 18px;
+}
+#reg_title
+{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+.form-control:focus
+{
+
+	box-shadow: 0 0 5px #674272;
+	border: 2px solid #674272;
+	/*box-shadow: 0 0 5px rgba(81, 203, 238, 1);*/
+	/*border: 1px solid rgba(81, 203, 238, 1);*/
+	/*background-color: #584360;*/
+	/*border-color: #584360;*/
 }
