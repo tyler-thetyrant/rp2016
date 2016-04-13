@@ -91,6 +91,12 @@ a#footer
     padding-bottom:2%;
     height:100px;
 }
+#footer_links
+{
+	width:auto;
+	margin-right: auto;
+	margin-left: auto;
+}
 .schedule-day-title
 {
 	font-family: "Noto Sans", sans-serif;
