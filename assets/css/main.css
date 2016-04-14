@@ -175,6 +175,41 @@ a:hover, #footer
 	margin-bottom: 50px;
 	font-weight: bold;
 }
+.form_input
+{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	padding: 7px;
+	/*opacity: .3;*/
+	background-color: rgba(0, 0, 0, .2);
+	border: 1px solid rgba(103,66,114, .5);
+}
+.form_input::-webkit-input-placeholder {
+   color: #674272;
+   opacity: 1;
+}
+
+.form_input:-moz-placeholder { /* Firefox 18- */
+   color: #674272;
+   opacity: 1; 
+}
+
+.form_input::-moz-placeholder {  /* Firefox 19+ */
+   color: #674272;  
+   opacity: 1;
+}
+
+.form_input:-ms-input-placeholder {  
+   color: #674272;  
+   opacity: 1;
+}
+.form_input:focus
+{
+	box-shadow: 0 0 5px #674272;
+	border: 2px solid rgba(103,66,114, 1);
+}
 .form-control:focus
 {
 
@@ -185,3 +220,16 @@ a:hover, #footer
 	/*background-color: #584360;*/
 	/*border-color: #584360;*/
 }
+input[type="file"]
+{
+	display:none;
+}
+.form_input.file_btn
+{
+	color:red;
+}
+
+
+
+
+
