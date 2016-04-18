@@ -10,7 +10,7 @@ body
 	color: white;
 	font-family: "Noto Sans", sans-serif;
 	/*background: rgba(255, 255, 255, .2) url("images/bg.png");*/
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 a#footer
 {
