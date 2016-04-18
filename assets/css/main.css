@@ -28,7 +28,7 @@ a#footer
 }
 @media screen and (max-width: 515px)
 {
-	
+
 }
 @media screen and (min-width: 515px)
 {
@@ -122,7 +122,7 @@ a:hover, #footer
 {
 	/*width:20%;*/
 	display: inline;
-	margin:;
+	/*margin:;*/
 }
 .schedule
 {
@@ -134,6 +134,49 @@ a:hover, #footer
 	margin-bottom: 50px;
 	font-weight: bold;
 }
+.form_input
+{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	padding: 7px;
+	/*opacity: .3;*/
+	background-color: rgba(0, 0, 0, .2);
+	border: 1px solid rgba(103,66,114, .5);
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.form_input::-webkit-input-placeholder {
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
+   opacity: 1;
+}
+
+.form_input:-moz-placeholder { /* Firefox 18- */
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
+   opacity: 1; 
+}
+
+.form_input::-moz-placeholder {  /* Firefox 19+ */
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
+   opacity: 1;
+}
+
+.form_input:-ms-input-placeholder {  
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
+   opacity: 1;
+}
+.form_input:focus
+{
+	box-shadow: 0 0 5px #674272;
+	border: 2px solid rgba(103,66,114, 1);
+}
 .form-control:focus
 {
 
@@ -144,3 +187,21 @@ a:hover, #footer
 	/*background-color: #584360;*/
 	/*border-color: #584360;*/
 }
+input[type="file"]
+{
+	display:none;
+}
+.form_input.file_btn
+{
+	color:red;
+}
+#reg_div
+{
+	background-color: rgba(0, 0, 0, .1);
+	border: 2px solid #674272;
+	box-shadow: 0 0 5px #674272;
+}
+
+
+
+
