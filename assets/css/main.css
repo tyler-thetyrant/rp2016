@@ -1,26 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
-
-@font-face
-{
-	font-family: caviar_dreams_bold;
-	src: url(../fonts/Caviar_Dreams_Bold.ttf);
-}
-@font-face
-{
-	font-family: caviar_dreams_bold_italic;
-	src: url(../fonts/Caviar_Dreams_BoldItalic.ttf);
-}
-@font-face
-{
-	font-family: caviar_dreams_italic;
-	src: url(../fonts/Caviar_Dreams_Italic.ttf);
-}
-@font-face
-{
-	font-family: caviar_dreams;
-	src: url(../fonts/Caviar_Dreams.ttf);
-}
-
 html, body
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/bg.png");
