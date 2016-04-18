@@ -10,7 +10,7 @@ body
 	color: white;
 	font-family: "Noto Sans", sans-serif;
 	/*background: rgba(255, 255, 255, .2) url("images/bg.png");*/
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 a#footer
 {
@@ -200,6 +200,8 @@ input[type="file"]
 	background-color: rgba(0, 0, 0, .1);
 	border: 2px solid #674272;
 	box-shadow: 0 0 5px #674272;
+	margin-left:5px;
+	margin-right:5px;
 }
 
 
