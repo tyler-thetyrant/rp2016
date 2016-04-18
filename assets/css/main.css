@@ -27,38 +27,11 @@ a#footer
 }
 @media screen and (max-width: 515px)
 {
-	#title-h1
-	{
-		font-size: 24px;
-		font-family: "Noto Sans", sans-serif;
-		font-weight: bold;
-		font-color:red;
-	}
-	/*#footer
-	{
-		font-size: 2em;
-	    bottom: 0;
-	    width: inherit;
-	    padding-bottom:2%;
-	}*/
+
 }
 @media screen and (min-width: 515px)
 {
-	#title-h1
-	{
-		font-size: 2.5em;
-		font-family: "Noto Sans", sans-serif;
-		font-weight: bold;
-		font-color:blue;
-	}
-/*	#footer
-	{
-		font-size: 2em;
-	    position: fixed;
-	    bottom: 0;
-	    width: inherit;
-	    padding-bottom:2%;
-	}*/
+
 }
 #footer
 {
@@ -141,7 +114,7 @@ a:hover, #footer
 {
 	/*width:20%;*/
 	display: inline;
-	margin:;
+	/*margin:;*/
 }
 .schedule
 {
@@ -163,24 +136,32 @@ a:hover, #footer
 	/*opacity: .3;*/
 	background-color: rgba(0, 0, 0, .2);
 	border: 1px solid rgba(103,66,114, .5);
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 .form_input::-webkit-input-placeholder {
-   color: #674272;
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
    opacity: 1;
 }
 
 .form_input:-moz-placeholder { /* Firefox 18- */
-   color: #674272;
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
    opacity: 1; 
 }
 
 .form_input::-moz-placeholder {  /* Firefox 19+ */
-   color: #674272;  
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
    opacity: 1;
 }
 
 .form_input:-ms-input-placeholder {  
-   color: #674272;  
+   /*color: #674272;*/
+   color: rgba(52, 152, 219, .7);
    opacity: 1;
 }
 .form_input:focus
@@ -206,7 +187,12 @@ input[type="file"]
 {
 	color:red;
 }
-
+#reg_div
+{
+	background-color: rgba(0, 0, 0, .1);
+	border: 2px solid #674272;
+	box-shadow: 0 0 5px #674272;
+}
 
 
 
