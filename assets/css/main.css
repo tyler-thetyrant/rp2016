@@ -32,6 +32,7 @@ body
 	color: white;
 	font-family: "Noto Sans", sans-serif;
 	/*background: rgba(255, 255, 255, .2) url("images/bg.png");*/
+	overflow-x: hidden;
 }
 a#footer
 {
@@ -123,13 +124,20 @@ a#footer
 	padding-top: 20px;
 	/*width: 100%;*/
 }
-a, #footer
+.icon_link
 {
 	color: rgba(255, 255, 255, .4);
 	text-decoration: none;
 	margin-left: 10px;
 	margin-right: 10px;
 }
+/*a, #footer
+{
+	color: rgba(255, 255, 255, .4);
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}*/
 a:hover, #footer
 {
 	color: #51365B;
