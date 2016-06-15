@@ -2,6 +2,7 @@
 html, body
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/bg.png");
+	background-attachment: fixed;
 	height:100%;
 }
 body
@@ -12,11 +13,7 @@ body
 	/*background: rgba(255, 255, 255, .2) url("images/bg.png");*/
 	/*overflow-x: hidden;*/
 }
-a#footer
-{
-	/*color: white;*/
-	/*text-decoration: none;*/
-}
+
 .container
 {
 	min-height: 100%;
@@ -26,13 +23,17 @@ a#footer
 {
 	height: 90vh;
 }
-#about
+.transition
 {
-	background-color: rgba(255, 255, 255, .5);
+	height: 10vh;
+}
+#faq
+{
+	background-color: rgba(0, 0, 0, 1);
 }
 .section_title
 {
-	font-size:3em;
+	font-size:2.5em;
 }
 #about_heading
 {
@@ -50,7 +51,23 @@ a#footer
 }
 #main_row
 {
+	padding-top: 100px;
 	padding-bottom:100px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#speakers
+{
+	background-color: rgba(255, 0, 0, 1);
+}
+#schedule
+{
+	background-color: rgba(0, 255, 0, 1);
+}
+#sponsors
+{
+	background-color: rgba(0, 0, 255, 1);
 }
 @media screen and (max-width: 515px)
 {
@@ -62,9 +79,8 @@ a#footer
 }
 #footer
 {
-	font-size: 2em;
+	font-size: 1.5em;
     position: absolute;
-    bottom: 0;
     width: 100%;
     padding-bottom:2%;
     height:100px;
@@ -84,41 +100,12 @@ a#footer
 {
 	font-size: 1.5em;
 }
-.container-fluid
-{
-	/*padding-left: 10%;*/
-	/*padding-right: 10%;*/
-	padding-top: 5%;
-}
-/*#footer-icons
-{
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-}*/
-#mc_embed_signup
-{
-	padding-top: 20px;
-	/*width: 100%;*/
-}
 .icon_link
 {
 	color: rgba(255, 255, 255, .4);
 	text-decoration: none;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-/*a, #footer
-{
-	color: rgba(255, 255, 255, .4);
-	text-decoration: none;
-	margin-left: 10px;
-	margin-right: 10px;
-}*/
-a:hover, #footer
-{
-	color: #51365B;
-	text-decoration: none;
+	margin: 10px;
+	font-size: 2em;
 }
 .rp_button
 {
@@ -131,18 +118,6 @@ a:hover, #footer
 	background-color: #674272;
 	border-color: #674272;
 	color: white;
-}
-#main_row
-{
-	/*height:60vh;*/
-	padding-top:10%;
-}
-#mce-EMAIL
-{
-	background: rgba(255, 255, 255, .1);
-	color: white;
-	width: 60%;
-	display: inline;
 }
 #mc-embedded-subscribe
 {
