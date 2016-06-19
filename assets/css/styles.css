@@ -22,12 +22,9 @@ body
 .section
 {
 	max-height: 90vh;
-	padding: 25px;
+	padding: 50px 25px;
 }
-.transition
-{
-	height: 10vh;
-}
+
 #faq
 {
 	/*background-color: rgba(0, 0, 0, 1);*/
@@ -40,10 +37,7 @@ body
 {
 	height:30vh;
 }
-.section_title
-{
-	font-size:2.5em;
-}
+
 #about_heading
 {
 	font-size:2em;
@@ -57,14 +51,14 @@ body
 	padding: 20px;
 	border: 5px solid white;
 }
-#main_row
+.main_row
 {
-	padding-top: 100px;
-	padding-bottom:100px;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 80vh;
+	height: 50vh;
 }
 .faq_s_title
 {
@@ -157,7 +151,6 @@ body
 	margin-bottom: 10px;
 	color: white;
 	padding: 7px;
-	/*opacity: .3;*/
 	background-color: rgba(0, 0, 0, .2);
 	border: 1px solid rgba(103,66,114, .5);
 	width:50%;
@@ -174,7 +167,7 @@ body
 .form_input:-moz-placeholder { /* Firefox 18- */
    color: #674272;
    /*color: rgba(52, 152, 219, .7);*/
-   opacity: 1; 
+   opacity: 1;
 }
 
 .form_input::-moz-placeholder {  /* Firefox 19+ */
@@ -183,7 +176,7 @@ body
    opacity: 1;
 }
 
-.form_input:-ms-input-placeholder {  
+.form_input:-ms-input-placeholder {
    color: #674272;
    /*color: rgba(52, 152, 219, .7);*/
    opacity: 1;
@@ -218,3 +211,24 @@ input[type="file"]
 	box-shadow: 0 0 5px #674272;
 }
 
+.social-media-icons {
+	list-style-type: none;
+}
+
+.social-media-icons > li {
+	display: inline;
+}
+
+.title {
+	text-align: center;
+}
+
+#heading {
+	padding-bottom: 40px;
+}
+
+#menu
+{
+	font-size:1.5em;
+	list-style-type: none;
+}
