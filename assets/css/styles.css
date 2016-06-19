@@ -42,7 +42,7 @@ body
 }
 .section_title
 {
-	font-size:2.5em;
+	font-size:1.5em;
 }
 #about_heading
 {
@@ -174,7 +174,7 @@ body
 .form_input:-moz-placeholder { /* Firefox 18- */
    color: #674272;
    /*color: rgba(52, 152, 219, .7);*/
-   opacity: 1; 
+   opacity: 1;
 }
 
 .form_input::-moz-placeholder {  /* Firefox 19+ */
@@ -183,7 +183,7 @@ body
    opacity: 1;
 }
 
-.form_input:-ms-input-placeholder {  
+.form_input:-ms-input-placeholder {
    color: #674272;
    /*color: rgba(52, 152, 219, .7);*/
    opacity: 1;
@@ -218,3 +218,10 @@ input[type="file"]
 	box-shadow: 0 0 5px #674272;
 }
 
+.social-media-icons {
+	list-style-type: none;
+}
+
+.social-media-icons > li {
+	display: inline;
+}
