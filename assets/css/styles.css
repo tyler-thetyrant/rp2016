@@ -22,12 +22,9 @@ body
 .section
 {
 	max-height: 90vh;
-	padding: 25px;
+	padding: 50px 25px;
 }
-.transition
-{
-	height: 10vh;
-}
+
 #faq
 {
 	/*background-color: rgba(0, 0, 0, 1);*/
@@ -40,10 +37,7 @@ body
 {
 	height:30vh;
 }
-.section_title
-{
-	font-size:1.5em;
-}
+
 #about_heading
 {
 	font-size:2em;
@@ -57,7 +51,7 @@ body
 	padding: 20px;
 	border: 5px solid white;
 }
-#main_row
+.main_row
 {
 	padding-top: 10%;
 	padding-bottom: 10%;
@@ -157,7 +151,6 @@ body
 	margin-bottom: 10px;
 	color: white;
 	padding: 7px;
-	/*opacity: .3;*/
 	background-color: rgba(0, 0, 0, .2);
 	border: 1px solid rgba(103,66,114, .5);
 	width:50%;
@@ -228,4 +221,14 @@ input[type="file"]
 
 .title {
 	text-align: center;
+}
+
+#heading {
+	padding-bottom: 40px;
+}
+
+#menu
+{
+	font-size:1.5em;
+	list-style-type: none;
 }
