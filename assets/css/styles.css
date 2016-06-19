@@ -59,12 +59,12 @@ body
 }
 #main_row
 {
-	padding-top: 100px;
-	padding-bottom:100px;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 80vh;
+	height: 50vh;
 }
 .faq_s_title
 {
@@ -224,4 +224,8 @@ input[type="file"]
 
 .social-media-icons > li {
 	display: inline;
+}
+
+.title {
+	text-align: center;
 }
