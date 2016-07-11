@@ -13,8 +13,17 @@
 		<link rel="stylesheet" href="assets/css/styles.css">
 	</head>
 	<body class="container-fluid main_row">
-		<header class="row" style="flex-direction: column">
-			<div style="flex-direction: row; order: 1;">
+		<aside>
+			<ul id="menu">
+				<li><a href="#about">About</a></li>
+				<li><a href="#speakers">Speakers</a></li>
+				<li><a href="#schedule">Schedule</a></li>
+				<li><a href="#sponsors">Sponsors</a></li>
+			</ul>
+		</aside>
+
+		<header class="row">
+			<div style="flex-direction: row; align-items:center">
 				<img src="images/logo.png" class="col-xs-5 logo"/>
 				<div class="col-xs-7 title_section">
 					<div class="title">
@@ -43,16 +52,9 @@
 					</ul>
 				</div>
 			</div>
-
-			<ul class="col-xs-12 text-center" id="menu">
-				<li class="col-sm-3 "><a href="#about">About</a></li>
-				<li class="col-sm-3"><a href="#speakers">Speakers</a></li>
-				<li class="col-sm-3"><a href="#schedule">Schedule</a></li>
-				<li class="col-sm-3"><a href="#sponsors">Sponsors</a></li>
-			</ul>
 		</header>
 
-		<div class="row section" id="about">
+		<section class="row section" id="about">
 			<div class="col-xs-12">
 				<p id="about_heading"><b>What is Reflections|Projections?</b></p>
 			</div>
@@ -85,23 +87,29 @@
 				<p class="faq_s_title">Puzzlebang!</p>
 				<p>PuzzleBang, the annual week-long puzzle contest, is back again in 2015!  Teams will solve a series of puzzles throughout the week, concluding with a metapuzzle on Saturday.  Just finding out about PuzzleBang?  It's not too late!  Grab a few friends and give this puzzle a shot!</p>
 			</div>
-		</div>
+		</section>
 
-		<div class="row section" id="speakers">
+		<section class="row section" id="speakers">
 			<h1>speakers</h1>
-		</div>
+		</section>
 
-		<div class="row section" id="schedule">
+		<section class="row section" id="schedule">
 			<h1>schedule</h1>
-		</div>
+		</section>
 
-		<div class="row section" id="sponsors">
+		<section class="row section" id="sponsors">
 			<h1>sponsors</h1>
-		</div>
+		</section>
 
-		<div class="row text-center" id="footer">
+		<footer class="row text-center" id="footer">
 			<!-- <div class="col-xs-12 text-center"> -->
 			<p>acm@uiuc</p>
-		</div>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.1.0.js"
+			integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
+			crossorigin="anonymous">
+		</script>
 	</body>
 </html>

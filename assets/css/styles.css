@@ -19,11 +19,6 @@ body
 	min-height: 100%;
 	position: relative;
 }
-.section
-{
-	max-height: 90vh;
-	padding: 50px 25px;
-}
 
 #faq
 {
@@ -218,8 +213,9 @@ header
 {
 	height: 100%;
 	background: rgba(31, 16, 57, 0.5);
-	display:flex;
+	display: flex;
 	align-items: center;
+	padding: 0 15%;
 }
 
 .logo
@@ -236,19 +232,6 @@ header
 .title > h1
 {
 	display: inline-block;
-}
-
-#menu
-{
-	font-size:1.5em;
-	list-style-type: none;
-	margin-top: 20px;
-	order: 2;
-}
-
-#menu > li > a
-{
-	color: white;
 }
 
 .social-media-icons {
@@ -269,3 +252,46 @@ header
 }
 
 /* END header */
+
+/*
+ * Side menu
+ */
+
+ aside
+ {
+	position:fixed;
+	right:0;
+	top:0;
+	bottom:0;
+	width: 10%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	font-size:1em;
+ }
+
+#menu
+{
+	list-style: none;
+}
+
+#menu > li
+{
+	padding: 5px 0;
+}
+
+ #menu > li > a
+ {
+ 	color: #78708A;
+	font-weight: lighter;
+ }
+
+/* END Side menu */
+
+/*
+ * General Section styles
+ */
+
+section {
+	padding: 15%;
+}
