@@ -48,10 +48,7 @@ body
 {
 	background-color: rgba(255, 0, 0, 1);
 }
-#schedule
-{
-	background-color: rgba(0, 255, 0, 1);
-}
+
 #sponsors
 {
 	background-color: rgba(0, 0, 255, 1);
@@ -73,8 +70,6 @@ body
 }
 .schedule-day-title
 {
-	font-family: "Noto Sans", sans-serif;
-	font-weight: bold;
 }
 #subtitle
 {
