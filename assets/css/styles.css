@@ -273,6 +273,9 @@ header
 #menu
 {
 	list-style: none;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding: 5% 25%;
 }
 
 #menu > li
@@ -282,7 +285,7 @@ header
 
  #menu > li > a
  {
- 	color: #78708A;
+ 	color: white;
 	font-weight: lighter;
  }
 
@@ -293,5 +296,5 @@ header
  */
 
 section {
-	padding: 15%;
+	padding: 0 15%;
 }
