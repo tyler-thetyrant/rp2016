@@ -78,16 +78,22 @@ body
 {
 	/*background-color: rgba(0, 0, 0, 1);*/
 	/*color: black;*/
+	text-align: center;
 }
 #sponsors img
 {
 	width: 200px;
 	margin: 20px;
 	vertical-align: center;
+	text-align: center;
 }
 #sponsors img:hover
 {
 	/*width: 300px;*/
+}
+.high-tier img
+{
+	width: 300px !important;
 }
 #sponsors h1
 {
