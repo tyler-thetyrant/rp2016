@@ -185,7 +185,6 @@ aside
 /*
 * About Section
 */
-
 .about_heading
 {
 	font-size: 2em;
@@ -198,6 +197,26 @@ aside
 	padding: 20px;
 }
 
+.about_section_grid
+{
+	margin-top: 5%;
+}
+
+.about_section_card
+{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.about_section_card > img
+{
+	width: 100%;
+}
+
+.about_section_card_text
+{
+	margin-top: 15px;
+}
 
 /*
  * Unorganized Styles
