@@ -220,6 +220,18 @@ aside
 {
 	margin-top: 15px;
 }
+.about_section_image_text {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
 
 /*
  * Unorganized Styles
