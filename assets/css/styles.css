@@ -1,5 +1,177 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
 
+/*
+ * General Section styles
+ */
+
+section {
+	padding: 0 15%;
+}
+
+.rp_button
+{
+	background-color: #584360;
+	border-color: #584360;
+	color: white;
+}
+.rp_button:hover
+{
+	background-color: #674272;
+	border-color: #674272;
+	color: white;
+}
+
+/*
+ * Header styles
+ */
+
+header
+{
+	height: 100%;
+	background: rgba(31, 16, 57, 0.5);
+	display: flex;
+	align-items: center;
+	padding: 0 15%;
+}
+
+.logo
+{
+	order: 1;
+}
+
+.title_section
+{
+	text-align: center;
+	order: 2;
+}
+
+.title > h1
+{
+	display: inline-block;
+}
+
+.social-media-icons {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.social-media-icons > li {
+	display: inline;
+}
+
+.social-media-icons > li > a {
+	text-decoration: none;
+}
+
+.social-media-icons > li > a:hover {
+	color: gray;
+}
+
+.form_input
+{
+	display: inline;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	padding: 7px;
+	background-color: rgba(0, 0, 0, .2);
+	border: 1px solid rgba(103,66,114, .5);
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.form_input::-webkit-input-placeholder {
+	color: #674272;
+	opacity: 1;
+}
+
+.form_input:-moz-placeholder { /* Firefox 18- */
+	color: #674272;
+	opacity: 1;
+}
+
+.form_input::-moz-placeholder {  /* Firefox 19+ */
+	color: #674272;
+	opacity: 1;
+}
+
+.form_input:-ms-input-placeholder {
+	color: #674272;
+	opacity: 1;
+}
+.form_input:focus
+{
+	box-shadow: 0 0 5px #674272;
+	border: 2px solid rgba(103,66,114, 1);
+	outline: none;
+}
+
+.form_input_button {
+	display: inline;
+}
+
+.form_input_label {
+	font-size: 0.75em;
+}
+
+/*
+* Side menu
+*/
+aside
+{
+	position:fixed;
+	right:0;
+	top:0;
+	bottom:0;
+	width: 10%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	font-size:1em;
+}
+
+#menu
+{
+	list-style: none;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding: 5% 25%;
+}
+
+#menu > li
+{
+	padding: 5px 0;
+}
+
+#menu > li > a
+{
+	color: white;
+	font-weight: lighter;
+}
+
+/*
+* About Section
+*/
+
+#about_heading
+{
+	font-size: 2em;
+	margin-top: 50px;
+	font-style: bolder;
+}
+
+#about_text
+{
+	padding: 20px;
+}
+
+
+/*
+ * Unorganized Styles
+ */
+
 html, body
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/bg.png");
@@ -106,24 +278,7 @@ body
 	margin: 10px;
 	font-size: 2em;
 }
-.rp_button
-{
-	background-color: #584360;
-	border-color: #584360;
-	color: white;
-}
-.rp_button:hover
-{
-	background-color: #674272;
-	border-color: #674272;
-	color: white;
-}
-#mc-embedded-subscribe
-{
-	/*width:20%;*/
-	display: inline;
-	/*margin:;*/
-}
+
 .schedule
 {
 	font-size: 18px;
@@ -134,48 +289,7 @@ body
 	margin-bottom: 50px;
 	font-weight: bold;
 }
-.form_input
-{
-	display: block;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: white;
-	padding: 7px;
-	background-color: rgba(0, 0, 0, .2);
-	border: 1px solid rgba(103,66,114, .5);
-	width:50%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-.form_input::-webkit-input-placeholder {
-   color: #674272;
-   /*color: rgba(52, 152, 219, .7);*/
-   opacity: 1;
-}
 
-.form_input:-moz-placeholder { /* Firefox 18- */
-   color: #674272;
-   /*color: rgba(52, 152, 219, .7);*/
-   opacity: 1;
-}
-
-.form_input::-moz-placeholder {  /* Firefox 19+ */
-   color: #674272;
-   /*color: rgba(52, 152, 219, .7);*/
-   opacity: 1;
-}
-
-.form_input:-ms-input-placeholder {
-   color: #674272;
-   /*color: rgba(52, 152, 219, .7);*/
-   opacity: 1;
-}
-.form_input:focus
-{
-	box-shadow: 0 0 5px #674272;
-	border: 2px solid rgba(103,66,114, 1);
-}
 .form-control:focus
 {
 
@@ -200,109 +314,3 @@ input[type="file"]
 	border: 2px solid #674272;
 	box-shadow: 0 0 5px #674272;
 }
-
-/*
- * Header styles
- */
-
-header
-{
-	height: 100%;
-	background: rgba(31, 16, 57, 0.5);
-	display: flex;
-	align-items: center;
-	padding: 0 15%;
-}
-
-.logo
-{
-	order: 1;
-}
-
-.title_section
-{
-	text-align: center;
-	order: 2;
-}
-
-.title > h1
-{
-	display: inline-block;
-}
-
-.social-media-icons {
-	padding-left: 0px;
-	list-style-type: none;
-}
-
-.social-media-icons > li {
-	display: inline;
-}
-
-.social-media-icons > li > a {
-	text-decoration: none;
-}
-
-.social-media-icons > li > a:hover {
-	color: gray;
-}
-
-/*
- * Side menu
- */
-
- aside
- {
-	position:fixed;
-	right:0;
-	top:0;
-	bottom:0;
-	width: 10%;
-	height:100%;
-	display: flex;
-	align-items: center;
-	font-size:1em;
- }
-
-#menu
-{
-	list-style: none;
-	background: rgba(0, 0, 0, 0.5);
-	width: 100%;
-	padding: 5% 25%;
-}
-
-#menu > li
-{
-	padding: 5px 0;
-}
-
- #menu > li > a
- {
- 	color: white;
-	font-weight: lighter;
- }
-
-/*
- * General Section styles
- */
-
-section {
-	padding: 0 15%;
-}
-
-/*
- * About Section
- */
-
- #about_heading
- {
- 	font-size: 2em;
- 	margin-top: 50px;
-	font-style: bolder;
- }
-
- #about_text
- {
- 	padding: 20px;
- }
