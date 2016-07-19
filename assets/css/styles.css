@@ -186,14 +186,14 @@ aside
 * About Section
 */
 
-#about_heading
+.about_heading
 {
 	font-size: 2em;
 	margin-top: 50px;
 	font-style: bolder;
 }
 
-#about_text
+.about_text
 {
 	padding: 20px;
 }
@@ -205,7 +205,7 @@ aside
 
 html, body
 {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/bg.png");
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/img/background.png");
 	background-attachment: fixed;
 	height:100%;
 }
