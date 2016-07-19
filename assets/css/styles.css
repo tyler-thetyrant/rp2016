@@ -21,6 +21,20 @@ section {
 	color: white;
 }
 
+.rp_button:focus
+{
+	background-color: #674272;
+	border-color: #674272;
+	color: white;
+}
+
+.rp_button:active
+{
+	background-color: #674272;
+	border-color: #674272;
+	color: white;
+}
+
 /*
  * Header styles
  */
@@ -69,6 +83,7 @@ header
 
 .form_input
 {
+	border-radius: 4px;
 	display: inline;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -110,6 +125,22 @@ header
 
 .form_input_button {
 	display: inline;
+}
+
+.form_input_button:focus
+{
+	background-color: #674272;
+	border-color: #674272;
+	color: white;
+	outline: none;
+}
+
+.form_input_button:active
+{
+	background-color: #674272;
+	border-color: #674272;
+	color: white;
+	outline: none;
 }
 
 .form_input_label {
