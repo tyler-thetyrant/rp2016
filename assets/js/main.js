@@ -22,4 +22,8 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+  $('button').click(function() {
+    $(this).toggleClass('expanded').siblings('ul').slideToggle();
+  });
 });
