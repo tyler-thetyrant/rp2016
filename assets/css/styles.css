@@ -142,9 +142,19 @@ header {
 	font-size: 0.75em;
 }
 
+@media only screen and (max-width : 1250px) {
+	.title > h1 { 
+		font-size: 28px;
+	 }
+}
+
 @media only screen and (max-width : 992px) {
 	.title > h1 {
 		font-size: 22px;
+	}
+
+	h4 {
+		font-size: 18px;
 	}
 
 	.logo {
@@ -161,6 +171,10 @@ header {
 
 	.title > h1 {
 		font-size: 18px;
+	}
+
+	h4 {
+		font-size: 14px;
 	}
 
 	.social-media-icons > li > a {
