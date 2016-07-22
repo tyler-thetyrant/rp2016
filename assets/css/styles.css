@@ -143,7 +143,7 @@ header {
 }
 
 @media only screen and (max-width : 1250px) {
-	.title > h1 { 
+	.title > h1 {
 		font-size: 28px;
 	 }
 }
@@ -324,17 +324,21 @@ ul > li > a {
 */
 
 .schedule-section {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: #EDE6DD;
+	color: #2F0529;
 }
 
 .schedule-section-title {
 	text-align: center;
+	font-weight: bolder;
 }
 
 .schedule-day-title {
 	text-align: center;
 	padding-bottom: 5%;
+	font-weight: bold;
 }
 
 .schedule-table {
@@ -349,7 +353,7 @@ ul > li > a {
 .schedule-table td:first-child {
 	text-align: center;
 	border-right: 3px solid #A38F3B;
-	color: darkgray;
+	color: dimgray;
 }
 
 .schedule-table td:last-child {
