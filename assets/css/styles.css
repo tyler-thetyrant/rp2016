@@ -51,6 +51,7 @@ header {
 
 .logo {
 	order: 1;
+	width: 100%;
 }
 
 .title_section {
@@ -139,6 +140,32 @@ header {
 
 .form_input_label {
 	font-size: 0.75em;
+}
+
+@media only screen and (max-width : 992px) {
+	.title > h1 {
+		font-size: 22px;
+	}
+
+	.logo {
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+	 }
+}
+
+@media only screen and (max-width : 480px) {
+	header {
+		padding: 0 5%;
+	}
+
+	.title > h1 {
+		font-size: 18px;
+	}
+
+	.social-media-icons > li > a {
+		font-size: 24px;
+	}
 }
 
 /*
