@@ -23,15 +23,7 @@ $(document).ready(function(){
     } // End if
   });
 
-  // $("div[data-speaker").each(function(item, elem){
-  //   console.log(item);
-  //   console.log(elem);
-  //   console.log(elem.getAttribute("data-speaker"));
-  //   path = elem.getAttribute("data-speaker") + elem.getAttribute("data-ext");
-  //   console.log(path);
-  //   elem.style.background = "linear-gradient(0, rgba(255, 255, 0, .5), rgba(255, 255, 0, .5)) url('https://www.src.org/image/benjamin-jun.png') no-repeat center";
-  //   elem.style.minHeight = "200px";
-  //   // elem.css("background-image", "url('assets/img/speakers/'" + path + ")");
-  //   console.log(elem.style.backgroundImage);
-  // });
+  $('button').click(function() {
+    $(this).toggleClass('expanded').siblings('ul').slideToggle();
+  });
 });
