@@ -16,6 +16,18 @@ $(document).ready(function(){
     contentTop.push( $( $(this).attr('href') ).offset().top );
   });
 
+   // adjust side menu
+  $(window).scroll(function(){
+    var winTop = $(window).scrollTop(),
+    bodyHt = $(document).height(),
+    vpHt = $(window).height() + edgeMargin;  // viewport height + margin
+    $.each( contentTop, function(i,loc){
+      if ( ( loc > winTop - edgeMargin && ( loc < winTop + topRange || ( winTop + vpHt ) >= bodyHt ) ) ){
+        $('.menu a').removeClass('current').eq(i).addClass('current');
+      }
+    })
+  });
+
   // Code from W3Schools
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -38,19 +50,6 @@ $(document).ready(function(){
         window.location.hash = hash;
       });
     } // End if
-  });
-
-
-   // adjust side menu
-  $(window).scroll(function(){
-    var winTop = $(window).scrollTop(),
-    bodyHt = $(document).height(),
-    vpHt = $(window).height() + edgeMargin;  // viewport height + margin
-    $.each( contentTop, function(i,loc){
-      if ( ( loc > winTop - edgeMargin && ( loc < winTop + topRange || ( winTop + vpHt ) >= bodyHt ) ) ){
-        $('.menu a').removeClass('current').eq(i).addClass('current');
-      }
-    })
   });
 
   $('button').click(function() {
