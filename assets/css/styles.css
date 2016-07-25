@@ -273,6 +273,13 @@ ul > li > a {
 		padding: 5% 10%;
 	}
 }
+.desktop .menu .current, .desktop .menu .current:hover {
+	color: #A38F3B;
+}
+.desktop .menu a:hover {
+	color: #674272;
+	text-decoration: none;
+}
 
 /*
 * About Section
@@ -426,7 +433,7 @@ ul > li > a {
 
 
 html, body {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/img/background.png");
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/img/background.png");
 	background-attachment: fixed;
 	height: 100%;
 }
