@@ -427,10 +427,15 @@ ul > li > a {
  }
 
 .sponsor-section {
-	padding: 5%;
+	padding: 0 5%;
  	text-align: center;
 	margin: 5% 20%;
 	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sponsor-section h3 {
+	color: #A38F3B;
+	margin: 10% 0;
 }
 
 .sponsor-section img {
@@ -451,7 +456,15 @@ ul > li > a {
 }
 
 .sponsor-logos img {
-	width: 130px;
+	width: 100%;
+}
+
+.sponsor-interest {
+	padding: 5% 0;
+}
+
+.sponsor-interest > a {
+	color: #A38F3B;
 }
 
 /*
