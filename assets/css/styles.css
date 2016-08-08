@@ -284,18 +284,24 @@ ul > li > a {
 /*
 * About Section
 */
-.about_heading {
-	font-size: 2em;
-	margin-top: 50px;
-	font-style: bolder;
+
+#about {
+	margin-top: 5%;
 }
 
-.about_text {
+
+.about-text {
 	padding: 20px;
+	font-size: 1em;
+	text-align: center;
+}
+.about-text a {
+	color: #A38F3B;
 }
 
 .about_section_grid {
-	margin-top: 5%;
+	padding: 5%;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .about_section_card {
@@ -479,10 +485,13 @@ ul > li > a {
 	padding: 20px;
  }
 
+ .footer a{
+	 color: #A38F3B;
+ }
+
 /*
  * Unorganized Styles
  */
-
 
 
 html, body {
