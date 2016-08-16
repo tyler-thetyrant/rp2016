@@ -473,6 +473,10 @@ ul > li > a {
 	color: #A38F3B;
 }
 
+.sponsor-section td {
+  padding-bottom: 1em;
+}
+
 /*
  * Footer
  */
