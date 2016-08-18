@@ -470,6 +470,10 @@ ul > li > a {
 	margin-bottom: 15px;
 }
 
+.mb-sponsors img {
+	max-width: 200px;
+}
+
 .sponsor-interest {
 	padding: 5% 0;
 }
