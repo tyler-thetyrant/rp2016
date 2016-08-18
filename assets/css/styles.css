@@ -461,6 +461,10 @@ ul > li > a {
  	margin-bottom: 50px;
 }
 
+.sponsor-logos {
+	table-layout: fixed;
+}
+
 .sponsor-logos img {
 	width: 100%;
 }
