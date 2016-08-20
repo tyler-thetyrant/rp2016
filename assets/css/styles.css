@@ -461,8 +461,17 @@ ul > li > a {
  	margin-bottom: 50px;
 }
 
+.sponsor-logos {
+	table-layout: fixed;
+}
+
 .sponsor-logos img {
 	width: 100%;
+	margin-bottom: 15px;
+}
+
+.mb-sponsors img {
+	max-width: 200px;
 }
 
 .sponsor-interest {
