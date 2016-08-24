@@ -318,6 +318,7 @@ ul > li > a {
 }
 
 .about_section_card_text {
+	color: #A38F3B;
 	margin-top: 15px;
 }
 .about_section_image_text {
@@ -331,6 +332,10 @@ ul > li > a {
   top: 0;
   width: 100%;
   display: none;
+}
+
+.about_section_subtitle {
+	font-size: 0.8em
 }
 
 /*
@@ -504,8 +509,12 @@ ul > li > a {
  */
 
 html, body {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/img/background.png");
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/img/new-background.png") no-repeat center center fixed;
 	background-attachment: fixed;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
 	height: 100%;
 }
 body {
