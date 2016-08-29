@@ -488,6 +488,28 @@ ul > li > a {
   padding-bottom: 1em;
 }
 
+.flex-container {
+		display: -webkit-flex;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-content: center;
+}
+
+.megabyte-sponsors img {
+	max-width: 300px;
+	max-height: 300px;
+	margin: auto;
+	flex-grow: 1;
+}
+
+.gigabyte-sponsors img {
+	max-width: 400px;
+	max-height: 400px;
+	margin: auto;
+	flex-grow: 1;
+}
+
 /*
  * Footer
  */
