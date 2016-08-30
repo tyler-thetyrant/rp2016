@@ -395,6 +395,7 @@ ul > li > a {
 	background-color: #EDE6DD;
 	background-clip:content-box;
 	color: #2F0529;
+	width: calc(50% - 3%);
 }
 
 .speaker-card a {
