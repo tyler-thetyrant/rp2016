@@ -391,11 +391,13 @@ ul > li > a {
 
 .speaker-card {
 	padding: 3% 2%;
-	margin-bottom: 1%;
+	margin: 0 0 0 0;
 	background-color: #EDE6DD;
 	background-clip:content-box;
 	color: #2F0529;
-	width: calc(50% - 3%);
+	width: calc(50% - 4%);
+	display: inline-block;
+
 }
 
 .speaker-card a {
