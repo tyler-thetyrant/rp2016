@@ -395,7 +395,7 @@ ul > li > a {
 	background-color: #EDE6DD;
 	background-clip:content-box;
 	color: #2F0529;
-	width: calc(50% - 4%);
+	width: calc(33% - 4%);
 	display: inline-block;
 
 }
@@ -427,6 +427,12 @@ ul > li > a {
 @media only screen and (max-width: 1048px) {
    .speaker-card-title { font-size: 1.3em; }
    .speaker-card-subtitle { font-size: 0.7em; }
+}
+
+@media only screen and (max-width: 1048px) {
+	.speaker-card {
+		width: calc(50% - 4%);
+	}
 }
 
 .speaker-coming-soon-card {
