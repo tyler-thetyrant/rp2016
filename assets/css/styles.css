@@ -391,10 +391,13 @@ ul > li > a {
 
 .speaker-card {
 	padding: 3% 2%;
-	margin-bottom: 1%;
+	margin: 0 0 0 0;
 	background-color: #EDE6DD;
 	background-clip:content-box;
 	color: #2F0529;
+	width: calc(33% - 4%);
+	display: inline-block;
+
 }
 
 .speaker-card a {
@@ -424,6 +427,12 @@ ul > li > a {
 @media only screen and (max-width: 1048px) {
    .speaker-card-title { font-size: 1.3em; }
    .speaker-card-subtitle { font-size: 0.7em; }
+}
+
+@media only screen and (max-width: 1048px) {
+	.speaker-card {
+		width: calc(50% - 4%);
+	}
 }
 
 .speaker-coming-soon-card {
@@ -475,13 +484,46 @@ ul > li > a {
 .sponsor-interest {
 	padding: 5% 0;
 }
-
+ta
 .sponsor-interest > a {
 	color: #A38F3B;
 }
 
 .sponsor-section td {
   padding-bottom: 1em;
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.megabyte-sponsors img {
+	max-width: 300px;
+	max-height: 300px;
+	margin: auto;
+	flex-grow: 1;
+}
+
+.gigabyte-sponsors img {
+	max-width: 400px;
+	max-height: 400px;
+	margin: auto;
+	flex-grow: 1;
+}
+
+@media only screen and (max-width: 560px) {
+	.megabyte-sponsors img {
+		max-width: 150px;
+		max-height: 150px;
+	}
+	.gigabyte-sponsors img {
+		max-width: 200px;
+		max-height: 200px;
+	}
 }
 
 /*
