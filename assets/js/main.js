@@ -55,4 +55,11 @@ $(document).ready(function(){
     $('button').click(function() {
         $(this).toggleClass('expanded').siblings('ul').slideToggle();
     });
+
+    // Handles revealing of speaker bio cards.
+    $('.speaker-card-overlay').hide();
+    $('.speaker-card-container').click(function() {
+        $('.speaker-card-overlay').not($(this).find('.speaker-card-overlay')).slideUp('slow');
+        $(this).find('.speaker-card-overlay').slideToggle('slow');
+    });
 });
