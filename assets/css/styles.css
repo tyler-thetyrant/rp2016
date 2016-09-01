@@ -400,7 +400,7 @@ ul > li > a {
 	padding: 3% 2%;
 	margin-bottom: 1%;
 	background-color: #EDE6DD;
-
+	width: calc(33% - 3%);
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
 	-o-transition: background-color 400ms linear;
@@ -543,6 +543,7 @@ ul > li > a {
 	max-height: 300px;
 	margin: auto;
 	flex-grow: 1;
+	display: inline-block;
 }
 
 .gigabyte-sponsors img {
@@ -550,6 +551,7 @@ ul > li > a {
 	max-height: 400px;
 	margin: auto;
 	flex-grow: 1;
+	/*display: inline;*/
 }
 
 @media only screen and (max-width: 560px) {
