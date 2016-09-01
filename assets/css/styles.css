@@ -391,13 +391,10 @@ ul > li > a {
 
 .speaker-card {
 	padding: 3% 2%;
-	margin: 0 0 0 0;
+	margin-bottom: 1%;
 	background-color: #EDE6DD;
 	background-clip:content-box;
 	color: #2F0529;
-	width: calc(33% - 4%);
-	display: inline-block;
-
 }
 
 .speaker-card a {
@@ -484,7 +481,7 @@ ul > li > a {
 .sponsor-interest {
 	padding: 5% 0;
 }
-ta
+
 .sponsor-interest > a {
 	color: #A38F3B;
 }
