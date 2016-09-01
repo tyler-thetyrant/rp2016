@@ -408,6 +408,8 @@ ul > li > a {
 	transition: background-color 400ms linear;
 	background-clip:content-box;
 	color: #2F0529;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .speaker-card:hover {
@@ -470,6 +472,12 @@ ul > li > a {
 @media only screen and (max-width: 1048px) {
    .speaker-card-title { font-size: 1.3em; }
    .speaker-card-subtitle { font-size: 0.7em; }
+}
+
+@media only screen and (max-width: 800px) {
+	.speaker-card {
+		width: calc(50% - 3%);
+	}
 }
 
 @media only screen and (max-width: 540px) {
