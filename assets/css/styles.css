@@ -461,10 +461,9 @@ ul > li > a {
 
 .speaker-card-overlay-content {
 	position: absolute;
-	text-align: center;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(0, -50%);
+	font-size: 0.7vw;
 	overflow: hidden;
 }
 
