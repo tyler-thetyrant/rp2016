@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="98ef8ce6-050c-44bf-8846-2de6833d2284" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="rp2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,12 +206,12 @@
       <workItem from="1472590058717" duration="3344000" />
       <workItem from="1472598270774" duration="40000" />
       <workItem from="1472600991248" duration="5812000" />
-      <workItem from="1472706801924" duration="1899000" />
+      <workItem from="1472706801924" duration="2129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14605000" />
+    <option name="totallyTimeSpent" value="14835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="975" height="1047" extended-state="0" />
