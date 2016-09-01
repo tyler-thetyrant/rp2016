@@ -473,12 +473,6 @@ ul > li > a {
    .speaker-card-subtitle { font-size: 0.7em; }
 }
 
-@media only screen and (max-width: 1048px) {
-	.speaker-card {
-		width: calc(50% - 4%);
-	}
-}
-
 .speaker-coming-soon-card {
 	opacity: 0.5;
 	background-color: black;
