@@ -473,6 +473,12 @@ ul > li > a {
    .speaker-card-subtitle { font-size: 0.7em; }
 }
 
+@media only screen and (max-width: 540px) {
+	.speaker-card {
+		width: calc(100% - 3%);
+	}
+}
+
 .speaker-coming-soon-card {
 	opacity: 0.5;
 	background-color: black;
@@ -544,6 +550,7 @@ ul > li > a {
 	max-height: 300px;
 	margin: auto;
 	flex-grow: 1;
+	display: inline-block;
 }
 
 .gigabyte-sponsors img {
@@ -551,16 +558,27 @@ ul > li > a {
 	max-height: 400px;
 	margin: auto;
 	flex-grow: 1;
+	/*display: inline;*/
 }
 
 @media only screen and (max-width: 560px) {
 	.megabyte-sponsors img {
 		max-width: 150px;
 		max-height: 150px;
+		/*height: 10%;
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 0;
+		width: calc(50% - 5%);*/
 	}
 	.gigabyte-sponsors img {
 		max-width: 200px;
 		max-height: 200px;
+		height: 10%;
+		/*width: 100%;
+		margin-top: 0;
+		margin-bottom: 0;
+		width: calc(50%*/ - 5%);
 	}
 }
 
