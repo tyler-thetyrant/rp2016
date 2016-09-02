@@ -484,6 +484,9 @@ ul > li > a {
 	.speaker-card {
 		width: 100%;
 	}
+	.speaker-card-overlay-content {
+		font-size: 2.5vw;
+	}
 }
 
 .speaker-coming-soon-card {
