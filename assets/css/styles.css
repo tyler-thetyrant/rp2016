@@ -465,28 +465,43 @@ ul > li > a {
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
-	font-size: 0.7vw;
 	overflow: hidden;
 }
+
+@media only screen and (min-width: 200px) {
+	.speaker-card-overlay-content {
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (min-width: 560px) {
+	.speaker-card-overlay-content {
+		font-size: 2vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.speaker-card {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.speaker-card-overlay-content {
+		font-size: 1.3vw;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.speaker-card-overlay-content {
+		font-size: 0.8vw;
+	}
+}
+
 
 @media only screen and (max-width: 1048px) {
    .speaker-card-title { font-size: 1.3em; }
    .speaker-card-subtitle { font-size: 0.7em; }
-}
-
-@media only screen and (max-width: 800px) {
-	.speaker-card {
-		width: calc(50% - 3%);
-	}
-}
-
-@media only screen and (max-width: 540px) {
-	.speaker-card {
-		width: 100%;
-	}
-	.speaker-card-overlay-content {
-		font-size: 2.5vw;
-	}
 }
 
 .speaker-coming-soon-card {
