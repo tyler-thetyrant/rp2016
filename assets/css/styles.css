@@ -400,7 +400,7 @@ ul > li > a {
 	padding: 3% 2%;
 	margin-bottom: 1%;
 	background-color: #EDE6DD;
-	width: calc(33% - 3%);
+	display: inline-block;
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
 	-o-transition: background-color 400ms linear;
@@ -408,6 +408,8 @@ ul > li > a {
 	transition: background-color 400ms linear;
 	background-clip:content-box;
 	color: #2F0529;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .speaker-card:hover {
@@ -463,9 +465,39 @@ ul > li > a {
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
-	font-size: 0.7vw;
 	overflow: hidden;
 }
+
+@media only screen and (min-width: 200px) {
+	.speaker-card-overlay-content {
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (min-width: 560px) {
+	.speaker-card-overlay-content {
+		font-size: 2vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.speaker-card {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.speaker-card-overlay-content {
+		font-size: 1.3vw;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.speaker-card-overlay-content {
+		font-size: 0.8vw;
+	}
+}
+
 
 @media only screen and (max-width: 1048px) {
    .speaker-card-title { font-size: 1.3em; }
