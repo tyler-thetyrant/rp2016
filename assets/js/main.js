@@ -55,4 +55,26 @@ $(document).ready(function(){
     $('button').click(function() {
         $(this).toggleClass('expanded').siblings('ul').slideToggle();
     });
+
+    // Handles revealing of speaker bio cards.
+    $('.speaker-card-overlay').hide();
+    $('.speaker-card-container').click(function() {
+        $('.speaker-card-overlay').not($(this).find('.speaker-card-overlay')).slideUp('slow');
+        $(this).find('.speaker-card-overlay').slideToggle('slow');
+    });
+
+    // Set up a resize listener for clearfix
+    about_section_clearfix();
+    $( window ).resize(function() {
+        about_section_clearfix();
+    });
 });
+
+// Clearfix for the about section (Issue #82)
+about_section_clearfix = function() {
+    var max_height = Math.max.apply(null, $(".about_section_card").map(function(){
+        return $(this).height();
+    }).get());
+    // console.log(max_height);
+    $('.about_section_card').height(max_height)
+};
