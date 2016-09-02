@@ -1,3 +1,3 @@
-/**
- * Created by Simon on 9/1/2016.
- */
+$(document).ready(function() {
+   console.log("ready");
+});
