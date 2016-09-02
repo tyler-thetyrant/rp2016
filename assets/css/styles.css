@@ -468,13 +468,21 @@ ul > li > a {
 	overflow: hidden;
 }
 
+@media only screen and (min-width: 200px) {
+	.speaker-card-overlay-content {
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (min-width: 560px) {
+	.speaker-card-overlay-content {
+		font-size: 2vw;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.speaker-card {
 		width: 100%;
-	}
-
-	.speaker-card-overlay-content {
-		font-size: 2vw;
 	}
 }
 
