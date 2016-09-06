@@ -76,6 +76,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger-10", duration: 600}
 
     .on("enter", function (e) {
         $("#frame-content").attr("src","./assets/img/svg/rp10.svg");
+        $(".scroll-indicator").show();
     });
 
 
@@ -84,4 +85,5 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger-11", duration: 600}
 
     .on("enter", function (e) {
         $("#frame-content").attr("src","./assets/img/svg/rp11.svg");
+        $(".scroll-indicator").hide();
     });
