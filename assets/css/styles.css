@@ -302,7 +302,7 @@ ul > li > a {
 
 .about_section_grid {
 	padding: 5%;
-	background-color: rgba(103, 66, 114, 0.4);
+	background-color: rgba(103, 66, 114, 0.6);
 }
 
 .about_section_card {
@@ -352,7 +352,7 @@ ul > li > a {
 
 .schedule-section {
 	padding: 3% 0;
-	background-color: #EDE6DD;
+	background-color: white;
 	color: #2F0529;
 	margin: 5% 10%;
 }
