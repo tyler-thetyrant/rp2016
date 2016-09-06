@@ -513,6 +513,39 @@ ul > li > a {
 }
 
 /*
+ * FAQ
+ */
+
+ .faq-section {
+ 	padding: 3% 3%;
+ 	background-color: white;
+ 	color: #2F0529;
+ 	margin: 5% 10%;
+ }
+
+ .faq-section a{
+   color: #A38F3B;
+ }
+
+ @media only screen and (min-width: 768px) {
+	 .faq-section {
+	 	padding: 3% 3%;
+	 	background-color: white;
+	 	color: #2F0529;
+	 	margin: 5% 25%;
+	 }
+ }
+
+.faq-question {
+	height: 3%;
+	padding: 1%;
+}
+
+.faq-question > h4 {
+	font-weight: bolder;
+}
+
+/*
  * Sponsors
  */
 
@@ -638,27 +671,9 @@ body {
 	position: relative;
 }
 
-#faq {
-	/*background-color: rgba(0, 0, 0, 1);*/
-	background: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../../images/bg01_old.jpeg');
-	/*background/-color: rgba(0, 0, 0, .7);*/
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-#faq_to_speakers {
-	height: 30vh;
-}
-
 .main_row {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.faq_s_title {
-	font-size: 1.5em;
-	text-align: center;
-	margin-top: 35px;
 }
 
 #subtitle {
