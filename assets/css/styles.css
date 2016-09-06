@@ -228,7 +228,7 @@ ul > li > a {
 	list-style: none;
 	background: rgba(0, 0, 0, 0.5);
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	padding: 5% 10%;
 }
 
@@ -302,12 +302,12 @@ ul > li > a {
 
 .about_section_grid {
 	padding: 5%;
-	background-color: rgba(103, 66, 114, 0.4);
+	background-color: rgba(103, 66, 114, 0.6);
 }
 
 .about_section_card {
 	text-align: center;
-	margin-bottom: 5%;
+	margin-bottom: 14%;
 }
 
 .about_section_card > img {
@@ -352,7 +352,7 @@ ul > li > a {
 
 .schedule-section {
 	padding: 3% 0;
-	background-color: #EDE6DD;
+	background-color: white;
 	color: #2F0529;
 	margin: 5% 10%;
 }
@@ -397,9 +397,9 @@ ul > li > a {
  */
 
 .speaker-card {
-	padding: 3% 2%;
+	padding: 0 2% 4%;
 	margin-bottom: 1%;
-	background-color: #EDE6DD;
+	background-color: white;
 	display: inline-block;
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
@@ -413,7 +413,7 @@ ul > li > a {
 }
 
 .speaker-card:hover {
-	background-color: #CCBAA3;
+	background-color: #9E87A5;
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
 	-o-transition: background-color 400ms linear;
@@ -449,6 +449,7 @@ ul > li > a {
 	position: relative;
 	cursor: pointer;
 	height: 100%;
+	padding-bottom: 2%;
 }
 
 .speaker-card-overlay {
@@ -457,7 +458,7 @@ ul > li > a {
 	z-index: 999;
 	width: 100%;
 	height: 100%;
-	background-color: #EDE6DD;
+	background-color: white;
 	padding: 0 0.7em;
 }
 
@@ -509,6 +510,47 @@ ul > li > a {
 	background-color: black;
 	color: white;
 	text-align: center;
+}
+
+/*
+ * FAQ
+ */
+
+ .faq-section {
+ 	padding: 3% 5%;
+ 	background-color: white;
+ 	color: #2F0529;
+ 	margin: 5% 10%;
+ }
+
+ .faq-section a{
+   color: #A38F3B;
+ }
+
+
+  @media only screen and (min-width: 560px) {
+ 	 .faq-section {
+ 	 	margin: 5% 0%;
+ 	 }
+  }
+
+ @media only screen and (min-width: 768px) {
+	 .faq-section {
+	 	padding: 3% 3%;
+	 	background-color: white;
+	 	color: #2F0529;
+	 	margin: 5% 25%;
+	 }
+ }
+
+
+.faq-question {
+	height: 3%;
+	padding: 1%;
+}
+
+.faq-question > h4 {
+	font-weight: bolder;
 }
 
 /*
@@ -637,27 +679,9 @@ body {
 	position: relative;
 }
 
-#faq {
-	/*background-color: rgba(0, 0, 0, 1);*/
-	background: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../../images/bg01_old.jpeg');
-	/*background/-color: rgba(0, 0, 0, .7);*/
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-#faq_to_speakers {
-	height: 30vh;
-}
-
 .main_row {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.faq_s_title {
-	font-size: 1.5em;
-	text-align: center;
-	margin-top: 35px;
 }
 
 #subtitle {
