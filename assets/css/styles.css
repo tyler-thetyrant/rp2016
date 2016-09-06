@@ -307,7 +307,7 @@ ul > li > a {
 
 .about_section_card {
 	text-align: center;
-	margin-bottom: 5%;
+	margin-bottom: 14%;
 }
 
 .about_section_card > img {
@@ -397,9 +397,9 @@ ul > li > a {
  */
 
 .speaker-card {
-	padding: 0 2% 3%;
+	padding: 0 2% 4%;
 	margin-bottom: 1%;
-	background-color: #EDE6DD;
+	background-color: white;
 	display: inline-block;
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
@@ -413,7 +413,7 @@ ul > li > a {
 }
 
 .speaker-card:hover {
-	background-color: #CCBAA3;
+	background-color: #9E87A5;
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
 	-o-transition: background-color 400ms linear;
@@ -449,6 +449,7 @@ ul > li > a {
 	position: relative;
 	cursor: pointer;
 	height: 100%;
+	padding-bottom: 2%;
 }
 
 .speaker-card-overlay {
@@ -457,7 +458,7 @@ ul > li > a {
 	z-index: 999;
 	width: 100%;
 	height: 100%;
-	background-color: #EDE6DD;
+	background-color: white;
 	padding: 0 0.7em;
 }
 
