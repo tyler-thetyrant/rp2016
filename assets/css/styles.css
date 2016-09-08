@@ -416,15 +416,6 @@ ul > li > a {
 	margin-right: auto;
 }
 
-.speaker-card:hover {
-	background-color: #9E87A5;
-	-webkit-transition: background-color 400ms linear;
-	-moz-transition: background-color 400ms linear;
-	-o-transition: background-color 400ms linear;
-	-ms-transition: background-color 400ms linear;
-	transition: background-color 400ms linear;
-}
-
 .speaker-card a {
 	color: #2F0529;
 	font-weight: bolder;
@@ -437,6 +428,24 @@ ul > li > a {
 	width: 100%;
 	margin-left: auto;
     margin-right: auto;
+	cursor: pointer;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(100%);
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(100%);
+	-o-transition: .5s ease-in-out;
+	filter: grayscale(100%);
+}
+
+.speaker-card-picture:hover {
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(0%);
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(0%);
+	-o-transition: .5s ease-in-out;
+	filter: grayscale(0%);
 }
 
 .speaker-card-title {
@@ -451,7 +460,6 @@ ul > li > a {
 
 .speaker-card-container {
 	position: relative;
-	cursor: pointer;
 	height: 100%;
 	padding-bottom: 2%;
 }
@@ -464,6 +472,7 @@ ul > li > a {
 	height: 100%;
 	background-color: white;
 	padding: 0 0.7em;
+	cursor: pointer;
 }
 
 .speaker-card-overlay-content {
