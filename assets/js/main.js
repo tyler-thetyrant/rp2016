@@ -58,9 +58,14 @@ $(document).ready(function(){
 
     // Handles revealing of speaker bio cards.
     $('.speaker-card-overlay').hide();
-    $('.speaker-card-container').click(function() {
+    $('.speaker-card-picture').click(function() {
         $('.speaker-card-overlay').not($(this).find('.speaker-card-overlay')).slideUp('slow');
-        $(this).find('.speaker-card-overlay').slideToggle('slow');
+        $(this).parent().find('.speaker-card-overlay').slideToggle('slow');
+    });
+
+    $('.speaker-card-overlay').click(function() {
+        console.log("Clicky");
+        $(this).slideUp('slow');
     });
 
     // Set up a resize listener for clearfix
