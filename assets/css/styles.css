@@ -482,6 +482,10 @@ ul > li > a {
 	overflow: hidden;
 }
 
+.speaker-card-social-media {
+	text-align: center;
+}
+
 @media only screen and (min-width: 200px) {
 	.speaker-card-overlay-content {
 		font-size: 3vw;
