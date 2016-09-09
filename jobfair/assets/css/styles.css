@@ -26,6 +26,7 @@ body {
     text-align: center;
     margin-bottom: 3%;
     font-weight: bolder;
+    color: #A38F3B;
 }
 
 .title-image {
@@ -34,7 +35,11 @@ body {
 
 @media only screen and (max-width : 992px) {
     .description {
-        padding-top: 2%;
+        padding-top: 5%;
+    }
+    img {
+        width: 100%;
+        padding: 5% 0;
     }
 }
 
@@ -48,4 +53,5 @@ body {
     background-color: white;
     color: #2F0529;
     padding: 2%;
+    border-top: 1px solid lightgray;
 }
