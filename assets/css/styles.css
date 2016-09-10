@@ -399,6 +399,9 @@ ul > li > a {
 /*
  * Speakers
  */
+.speaker-section {
+
+}
 
 .speaker-card {
 	padding: 0 2% 4%;
@@ -480,10 +483,6 @@ ul > li > a {
 	top: 50%;
 	transform: translate(0, -50%);
 	overflow: hidden;
-}
-
-.speaker-card-social-media {
-	text-align: center;
 }
 
 @media only screen and (min-width: 200px) {
