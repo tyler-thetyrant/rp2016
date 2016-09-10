@@ -162,8 +162,12 @@ body {
     margin-bottom: 5%;
 }
 
+.faq-question {
+
+}
+
 .faq-answer {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .footer {
