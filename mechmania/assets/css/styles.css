@@ -52,8 +52,12 @@ body {
     margin-bottom: 5%;
 }
 
-.header-sponsors img {
-    width: 100%;
+/*.header-sponsors img {*/
+    /*width: 100%;*/
+/*}*/
+
+.sponsors img {
+    width: 45%;
 }
 
 @media screen and (max-width: 767px) {
@@ -149,6 +153,44 @@ body {
 
 .prize-item {
     padding: 3% 3%;
+}
+
+.faq {
+    padding: 3% 5%;
+    color: white;
+    margin: 0% 5%;
+    background-color: rgba(217, 83, 79, 0.3);
+}
+
+.faq-item {
+    margin-bottom: 5%;
+}
+
+.faq-answer {
+    opacity: 0.8;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer-image {
+
+}
+
+.footer-image img {
+    width: 100%;
+}
+
+.footer-register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-footer {
+    padding: 1em 2em;
 }
 
 @keyframes pulse {
