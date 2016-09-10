@@ -36,10 +36,24 @@ body {
     position: absolute;
     bottom: 0;
     opacity: 0.5;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .header-subtitle {
     opacity: 0.7;
+}
+
+.header-sponsors {
+    position: absolute;
+    bottom: 0;
+    width: 15%;
+    margin-bottom: 5%;
+}
+
+.header-sponsors img {
+    width: 100%;
 }
 
 @media screen and (max-width: 767px) {
