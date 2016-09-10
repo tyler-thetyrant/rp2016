@@ -17,9 +17,9 @@ $(function () { // wait for document ready
     }).addTo(controller);
 });
 
-$(window).scroll(function() {
-    // console.log(frame_offset);
-});
+// $(window).scroll(function() {
+     // console.log(frame_offset);
+// });
 
 $(window).resize(function() {
     update_frame_offset();
