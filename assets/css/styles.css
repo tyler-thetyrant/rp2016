@@ -707,8 +707,8 @@ body {
 .icon_link {
 	color: rgba(255, 255, 255, .4);
 	text-decoration: none;
-	margin: 10px;
-	font-size: 2em;
+	margin-left: 5px;
+	border-bottom-style: none !important;
 }
 
 .schedule {
