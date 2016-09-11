@@ -69,9 +69,12 @@ $(document).ready(function(){
     });
 
     // Set up a resize listener for clearfix
+    // resizes bio cards to a uniform size
     about_section_clearfix();
+    speaker_bio_resize()
     $( window ).resize(function() {
         about_section_clearfix();
+        speaker_bio_resize();
     });
 });
 
@@ -83,3 +86,16 @@ about_section_clearfix = function() {
     // console.log(max_height);
     $('.about_section_card').height(max_height)
 };
+
+// Resizes all speaker cards to be the same size
+speaker_bio_resize = function(){
+    var maxBiocardHeight = 0;
+
+    $('.speaker-section .speaker-card-subtitle').each(function(){
+        if($(this).height() > maxBiocardHeight) {
+            maxBiocardHeight = $(this).height();
+        }
+    });
+
+    $('.speaker-section .speaker-card-subtitle').height(maxBiocardHeight);
+}

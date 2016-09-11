@@ -396,9 +396,18 @@ ul > li > a {
 	padding-left: 10%;
 }
 
+.schedule-table span {
+	padding: 0;
+	display: block;
+	color: dimgray;
+}
+
 /*
  * Speakers
  */
+.speaker-section {
+
+}
 
 .speaker-card {
 	padding: 0 2% 4%;
@@ -704,8 +713,8 @@ body {
 .icon_link {
 	color: rgba(255, 255, 255, .4);
 	text-decoration: none;
-	margin: 10px;
-	font-size: 2em;
+	margin-left: 5px;
+	border-bottom-style: none !important;
 }
 
 .schedule {
