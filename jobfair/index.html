@@ -13,12 +13,33 @@
 <body>
     <div class="main-section">
         <h1 class="title">Job Fair</h1>
-        <div class="companies-list"></div>
+        <div id="companies-list"></div>
     </div>
     <script
         src="https://code.jquery.com/jquery-3.1.0.js"
         integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
         crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script id="companies-template" type="text/x-handlebars-template">
+        {{#each this}}
+        <div class="row company-card">
+            <img src="{{image}}" class="col-sm-12 col-lg-3">
+            <div class="col-sm-12 col-lg-9">
+                <p>
+                    {{description}}
+                 </p>
+                 <p>
+                     <span style="font-weight:bold">Opportunities: </span>
+                     <span>{{seeking}}</span>
+                 </p>
+                 <p>
+                     <span style="font-weight:bold">Work Authorization: </span>
+                     <span>{{work}}</span>
+                 </p>
+             </div>
+         </div>
+         {{/each}}
     </script>
     <script src="assets/js/main.js"></script>
 </body>
