@@ -71,7 +71,7 @@ $(document).ready(function(){
     // Set up a resize listener for clearfix
     // resizes bio cards to a uniform size
     about_section_clearfix();
-    speaker_bio_resize()
+    speaker_bio_resize();
     $( window ).resize(function() {
         about_section_clearfix();
         speaker_bio_resize();
