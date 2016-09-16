@@ -58,20 +58,6 @@ body {
     /*max-height: 10%;*/
 }
 
-@media only screen and (min-width : 768px) {
-    .main-section {
-        margin: 5% 15% 0;
-        padding: 2% 5%;
-    }
-}
-
-@media only screen and (max-width : 767px) {
-    .main-section {
-        /*margin: 5% 15% 0;*/
-        padding: 2% 5%;
-    }
-}
-
 @media only screen and (max-width : 991px) {
     .company-card-logo {
         padding: 4%;
