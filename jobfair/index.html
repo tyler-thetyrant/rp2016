@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <div class="main-section">
-        <h1 class="title">Job Fair</h1>
-        <div id="companies-list"></div>
-    </div>
+<div class="main-section">
+    <h1 class="title">Job Fair</h1>
+    <div id="companies-list"></div>
+</div>
 
     <!-- Scripts -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
@@ -27,8 +27,11 @@
     <script id="companies-template" type="text/x-handlebars-template">
         {{#each this}}
         <div class="row company-card">
-            <img src="{{image}}" class="col-sm-12 col-lg-3">
-            <div class="col-sm-12 col-lg-9">
+            <div class="company-card-logo col-md-12 col-lg-3">
+                <img src="{{image}}">
+            </div>
+
+            <div class="col-md-12 col-lg-9">
                 <p>
                     {{description}}
                  </p>
