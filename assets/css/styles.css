@@ -334,6 +334,11 @@ ul > li > a {
   display: none;
 }
 
+.about_section_description {
+	text-align: left;
+	font-size: 1.25em
+}
+
 .about_section_subtitle {
 	font-size: 0.8em
 }
