@@ -1,0 +1,119 @@
+/*Styles from main page*/
+
+html, body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../../assets/img/new-background.png") no-repeat center center fixed;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    /*@import url("http://fonts.googleapis.com/css?family=Roboto:400,700");*/
+    font-family: "Noto Sans", sans-serif;
+}
+
+.map {
+    padding: 0 20%;
+}
+
+.main-section {
+    padding: 2% 5%;
+    margin-bottom: 2%;
+    background-color: white;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    color: #2F0529;
+    font-weight: bold;
+}
+
+.title-area {
+    padding: 2%;
+    border-bottom: 2px solid #2F0529;
+}
+
+.title-image {
+    height: auto;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 3%;
+    color: #2F0529;
+}
+
+/*@media only screen and (max-width : 992px) {
+    .description {
+        padding-top: 5%;
+    }
+    img {
+        width: 100%;
+        padding: 5% 0;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .description {
+        padding-top: 6%;
+    }
+}*/
+
+.company-card {
+    margin: 2% 0;
+    background-color: white;
+    color: #2F0529;
+    padding: 2%;
+    font-size: 1em;
+    border-top: 1px solid lightgray;
+}
+
+@media only screen and (min-width : 768px) {
+    .main-section {
+        margin: 5% 15% 0;
+        padding: 2% 5%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .main-section {
+        padding: 2% 5%;
+    }
+
+    .company-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .company-card-logo {
+        padding: 4%;
+        margin-bottom: 5%;
+        text-align: center;
+        max-height: 200px;
+    }
+
+    .company-card-logo img {
+        max-height: 150px;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .company-card-logo {
+        text-align: center;
+    }
+
+
+    .company-card-logo img {
+
+    }
+}
+
+img {
+    max-width:100%;
+}
