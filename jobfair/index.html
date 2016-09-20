@@ -28,7 +28,11 @@
         integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
         crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"
+        integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU"
+        crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
     <script id="companies-template" type="text/x-handlebars-template">
         {{#each this}}
@@ -38,19 +42,18 @@
                     <img src="{{image}}">
                 </a>
             </div>
-
-            <div class="col-md-12 col-lg-9">
+            <div class="col-md-12 col-lg-9 company-text">
                 <p>
                     {{description}}
-                 </p>
-                 <p>
+                </p>
+                <p>
                      <span style="font-weight:bold">Opportunities: </span>
                      <span>{{seeking}}</span>
-                 </p>
-                 <p>
+                </p>
+                <p>
                      <span style="font-weight:bold">Work Authorization: </span>
                      <span>{{work}}</span>
-                 </p>
+                </p>
              </div>
          </div>
          {{/each}}

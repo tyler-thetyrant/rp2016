@@ -79,6 +79,10 @@ body {
     .main-section {
         padding: 2% 5%;
     }
+
+    .company-text {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 991px) {
