@@ -30,7 +30,7 @@
     {
         "image": "assets/logos/nike.png",
         "description": "NIKE, Inc. fosters a culture of invention. We create products, services and experiences for today's athlete while solving problems for the next generation.",
-        "seeking": "",
+        "seeking": "Summer Internships, Full Time",
         "work": "U.S. Citizens",
         "link": "http://jobs.nike.com/"
     },
@@ -64,7 +64,7 @@
     },
     {
         "image": "assets/logos/google.svg",
-        "description": "1600 Amphitheatre Parkway",
+        "description": "There’s no one kind of Googler, so we’re always looking for people who can bring new perspectives and life experiences to our teams. If you’re looking for a place that values your curiosity, passion, and desire to learn, if you’re seeking colleagues who are big thinkers eager to take on fresh challenges as a team, then you’re a future Googler.",
         "seeking": "Summer Internships, Full Time",
         "work": "U.S. Citizens, Permanent Residency Accepted, International Visas Accepted",
         "link": "https://www.google.com/about/careers/students/"
@@ -84,7 +84,7 @@
         "link": "http://careers.northerntrust.com/"
     },
     {
-        "image": "assets/logos/uber.svg",
+        "image": "assets/logos/uber.png",
         "description": "Uber Technologies Inc. is an American multinational online transportation network company headquartered in San Francisco, California. It develops, markets and operates the Uber mobile \"app\", which allows consumers with smartphones to submit a trip request, which the software program then automatically sends to the Uber driver nearest to the consumer, alerting the driver to the location of the customer.",
         "seeking": "Summer Internships, Co-Op, Full Time",
         "work": "U.S. Citizens, Permanent Residency Accepted, International Visas Accepted",
@@ -126,7 +126,7 @@
         "link": "https://www.godaddy.com/careers/overview"
     },
     {
-        "image": "assets/logos/riverbed.svg",
+        "image": "assets/logos/riverbed.png",
         "description": "Riverbed makes applications, websites, networks, data centers, the cloud, and remote offices work better. We bring the promise of digital transformation to life.    A storied company with a long legacy of market leadership, Riverbed pioneered WAN optimization. Since then we've expanded our solutions for the software-defined era. We're at the center of hybrid networking, the cloud, SD-WAN, SaaS, mobile, big data, and infrastructure visibility. In short, we're building a software-defined architecture for digital business.",
         "seeking": "Summer Internships, Full Time",
         "work": "U.S. Citizens, Permanent Residency Accepted, International Visas Accepted",
@@ -147,7 +147,7 @@
         "link": "https://careers.microsoft.com/"
     },
     {
-        "image": "assets/logos/bank_of_america.svg",
+        "image": "assets/logos/bankofamerica.jpg",
         "description": "Bank of America is a leading financial institution, serving individual consumers, small businesses, middle-market businesses and large corporations with a full range of banking, investing, asset management and other financial and risk management products and services. The company provides unmatched convenience in the United States, serving approximately 48 million consumer and small business relationships with approximately 4,800 retail banking offices and approximately 16,000 ATM's and award-winning online banking with 31 million active users and more than 18 million mobile users. Bank of America is among the world's leading wealth management companies and is a global leader in corporate and investment banking and trading across a broad range of asset classes, serving corporations, governments, institutions and individuals around the world. Bank of America offers industry-leading support to approximately 3 million small business owners through a suite of innovative, easy-to-use online products and services.",
         "seeking": "Summer Internships",
         "work": "U.S. Citizens, Permanent Residency Accepted, International Visas Accepted",
