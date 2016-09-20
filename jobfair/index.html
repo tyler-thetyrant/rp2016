@@ -12,16 +12,25 @@
 </head>
 
 <body>
-<div class="main-section">
-    <h1 class="title">Job Fair</h1>
-    <div id="companies-list"></div>
-</div>
+    <div class="main-section">
+        <div class="title-area">
+            <h1 class="title">Job Fair</h1>
+            <p style="text-align:center">September 30th, 10:30 AM to 4:30 PM</p>
+        </div>
+        <img class="img-responsive" src="assets/logos/map.png"/>
+        <h3 class="subtitle">Companies</h3>
+        <div id="companies-list"></div>
+    </div>
 
     <!-- Scripts -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
     <script
         src="https://code.jquery.com/jquery-3.1.0.js"
         integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"
+        integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU"
         crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
@@ -33,19 +42,18 @@
                     <img src="{{image}}">
                 </a>
             </div>
-
-            <div class="col-md-12 col-lg-9">
+            <div class="col-md-12 col-lg-9 company-text">
                 <p>
                     {{description}}
-                 </p>
-                 <p>
+                </p>
+                <p>
                      <span style="font-weight:bold">Opportunities: </span>
                      <span>{{seeking}}</span>
-                 </p>
-                 <p>
+                </p>
+                <p>
                      <span style="font-weight:bold">Work Authorization: </span>
                      <span>{{work}}</span>
-                 </p>
+                </p>
              </div>
          </div>
          {{/each}}
