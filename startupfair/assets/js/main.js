@@ -5,6 +5,5 @@ $(function() {
         var html = template(data);
         $('#companies-list').html(html);
         // company_card_resize();
-
     });
 });

@@ -1,9 +1,156 @@
 [
-    {
-        "image": "",
-        "description": "",
-        "seeking": "",
-        "work": "",
-        "link": ""
-    }
+  {
+    "name": "Reconstruct",
+    "image": "assets/logos/reconstruct.png",
+    "seeking": "Full-time, Summer Internship",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Nylas",
+    "image": "assets/logos/nylas.jpg",
+    "seeking": "Co-Op",
+    "work": "Permanent Residency Accepted",
+	"description": ""
+  },
+  {
+    "name": "VINA",
+    "image": "assets/logos/vina.png",
+    "seeking": "Full-time, Internships",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Tophatter",
+    "image": "assets/logos/tophatter.png",
+    "seeking": "Full-time",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Granular",
+    "image": "assets/logos/granular.png",
+    "seeking": "Full-time",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Atipica",
+    "image": "assets/logos/atipica.png",
+    "seeking": "Summer Internship",
+    "work": "Permanent Residency Accepted",
+	"description": ""
+  },
+  {
+    "name": "ReSchedule Med",
+    "image": "assets/logos/reschedulemed.svg",
+    "seeking": "Fall & Spring Semester Part Time",
+    "work": "Permanent Residency Accepted",
+	"description": ""
+  },
+  {
+    "name": "University of Illinois at Urbana-Champaign, School of Information Sciences",
+    "image": "assets/logos/uiucschoolofinfosci.png",
+    "seeking": "Fall & Spring Semester Part Time",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Gigster",
+    "image": "assets/logos/gigster.png",
+    "seeking": "Full-time",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "ThinkB1G",
+    "image": "assets/logos/thinkb1g.jpg",
+    "seeking": "Full-time, Co-op, Internship",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Flexport",
+    "image": "assets/logos/flexport.png",
+    "seeking": "Full-time",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "CloudFlare",
+    "image": "assets/logos/cloudflare.svg",
+    "seeking": "Full-time",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Truepad",
+    "image": "assets/logos/truepad.jpg",
+    "seeking": "Summer Internship",
+    "work": "Permanent Residency Accepted",
+	"description": ""
+  },
+  {
+    "name": "NextCapital Group",
+    "image": "assets/logos/nextcapitalgroup.png",
+    "seeking": "Full-time, Summer Internship",
+    "work": "Permanent Residency Accepted",
+	"description": ""
+  },
+  {
+    "name": "Akuna Capital",
+    "image": "assets/logos/akunacapital.jpg",
+    "seeking": "Full Time, Summer Internship",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Sprout Social",
+    "image": "assets/logos/sproutsocial.png",
+    "seeking": "Summer Internship",
+    "work": "U.S. Citizens",
+	"description": ""
+  },
+  {
+    "name": "Andreessen Horowitz",
+    "image": "",
+    "seeking": "Summer Internship",
+    "work": "U.S. Citizens",
+	"description": ""
+  },
+  {
+    "name": "Databricks",
+    "image": "assets/logos/databricks.png",
+    "seeking": "Full-time",
+    "work": "Permanent Residency Accepted",
+	"description": ""
+  },
+  {
+    "name": "Clustrix",
+    "image": "assets/logos/clustrix.png",
+    "seeking": "Summer Internship",
+    "work": "Permanent Residency Accepted",
+	"description": ""
+  },
+  {
+    "name": "Uptake Technologies, Inc",
+    "image": "assets/logos/uptaketechnologies.svg",
+    "seeking": "Summer Internship",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Avant",
+    "image": "assets/logos/avant.jpeg",
+    "seeking": "Full Time, Summer Internship",
+    "work": "International Visas Accepted",
+	"description": ""
+  },
+  {
+    "name": "Qualtrics",
+    "image": "assets/logos/qualtrics.svg",
+    "seeking": "Full-time",
+    "work": "U.S. Citizens",
+	"description": ""
+  }
 ]
