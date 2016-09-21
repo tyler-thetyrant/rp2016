@@ -322,6 +322,13 @@ ul > li > a {
 	color: #1F1037;
 	margin-top: 15px;
 }
+
+.about_section_card_text a {
+	color: #2F0529;
+	font-weight: bolder;
+	text-decoration: none;
+	border-bottom: 1px dotted #2F0529;
+}
 .about_section_image_text {
   background: rgba(0,0,0,0.5);
   color: white;
