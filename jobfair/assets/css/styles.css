@@ -113,3 +113,14 @@ body {
 img {
     max-width:100%;
 }
+
+.sponsor-interest {
+    font-size: 0.8em;
+    padding: 2%;
+    text-align: center;
+}
+
+.sponsor-interest > a {
+	color: #2F0529;
+    font-weight: bold;
+}
