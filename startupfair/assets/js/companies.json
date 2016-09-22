@@ -13,8 +13,7 @@
     "image": "assets/logos/nylas.png",
     "seeking": "Co-Op",
     "work": "Permanent Residency Accepted",
-  	"description": "The world of email is broken. Old protocols, obscure data formats, and fragmented standards have left developers frustrated. And email products woefully haven’t become collaborative or extensible.
-We want to change that, by creating a modern layer for email, contacts, and calendar. Our mission is to build elegant products for large complex systems."
+  	"description": "The world of email is broken. Old protocols, obscure data formats, and fragmented standards have left developers frustrated. And email products woefully haven’t become collaborative or extensible. We want to change that, by creating a modern layer for email, contacts, and calendar. Our mission is to build elegant products for large complex systems."
   },
   {
     "name": "VINA",
@@ -166,6 +165,6 @@ We want to change that, by creating a modern layer for email, contacts, and cale
     "image": "assets/logos/qualtrics.png",
     "seeking": "Full-time",
     "work": "U.S. Citizens",
-  	"description": "Qualtrics gives organizations complete control over their customer experience programs. Respond to customer needs, analyze trends, and make changes in real time. Qualtrics is easy to use, extremely flexible, and automates processes that drive action."
+  	"description": "Qualtrics gives organizations complete control over their customer experience programs. Respond to customer needs, analyze trends, and make changes in real time. Qualtrics is easy to use, extremely flexible, and automates processes that drive action."
   }
 ]
