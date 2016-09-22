@@ -8,7 +8,7 @@
   },
   {
     "name": "Nylas",
-    "image": "assets/logos/nylas.jpg",
+    "image": "assets/logos/nylas.png",
     "seeking": "Co-Op",
     "work": "Permanent Residency Accepted",
   	"description": "The best email app for sales professionals"
@@ -43,7 +43,7 @@
   },
   {
     "name": "ReSchedule Med",
-    "image": "assets/logos/reschedulemed.svg",
+    "image": "assets/logos/reschedulemed.png",
     "seeking": "Fall & Spring Semester Part Time",
     "work": "Permanent Residency Accepted",
   	"description": "Spring scheduling has never been this easy! ReSchedule Med provides an end-to-end work flow to manage graduate medical education scheduling."
@@ -78,7 +78,7 @@
   },
   {
     "name": "CloudFlare",
-    "image": "assets/logos/cloudflare.svg",
+    "image": "assets/logos/cloudflare.jpg",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
   	"description": "CloudFlare is a free global CDN, DNS, DDoS protection & web security provider that can speed up and protect any site online."
@@ -92,7 +92,7 @@
   },
   {
     "name": "NextCapital Group",
-    "image": "assets/logos/nextcapitalgroup.png",
+    "image": "assets/logos/nextcapitalgroup.jpg",
     "seeking": "Full-time, Summer Internship",
     "work": "Permanent Residency Accepted",
   	"description": "NextCapital provides the only personal benchmarking tool to help you clearly understand how your investments are performing relative to your own investment ... "
@@ -102,7 +102,7 @@
     "image": "assets/logos/akunacapital.jpg",
     "seeking": "Full Time, Summer Internship",
     "work": "International Visas Accepted",
-  	"description": "We don't just trade the market. We make the market."
+  	"description": "Akuna Capital is a proprietary trading firm specializing in derivatives market making."
   },
   {
     "name": "Sprout Social",
@@ -134,14 +134,14 @@
   },
   {
     "name": "Uptake Technologies, Inc",
-    "image": "assets/logos/uptaketechnologies.svg",
+    "image": "assets/logos/uptaketechnologies.png",
     "seeking": "Summer Internship",
     "work": "International Visas Accepted",
   	"description": "We help companies understand and act on their data. Uptake is building the singular platform that defines data-driven insight in major global industries."
   },
   {
     "name": "Qualtrics",
-    "image": "assets/logos/qualtrics.svg",
+    "image": "assets/logos/qualtrics.png",
     "seeking": "Full-time",
     "work": "U.S. Citizens",
   	"description": "The Qualtrics Insight Platform makes sophisticated research simple and empowers users to capture customer market and employee insights in one place."
