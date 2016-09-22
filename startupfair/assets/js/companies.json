@@ -4,17 +4,20 @@
     "image": "assets/logos/reconstruct.png",
     "seeking": "Full-time, Summer Internship",
     "work": "International Visas Accepted",
-  	"description": "Predictive Computer Vision Data Analytics on Construction Sites"
+  	"description": "Predictive Computer Vision Data Analytics on Construction Sites",
+    "link": "http://researchpark.illinois.edu/directory/reconstruct-inc"
   },
   {
     "name": "Nylas",
+    "link": "https://www.nylas.com/",
     "image": "assets/logos/nylas.png",
     "seeking": "Co-Op",
     "work": "Permanent Residency Accepted",
-  	"description": "The best email app for sales professionals"
+  	"description": "The world of email is broken. Old protocols, obscure data formats, and fragmented standards have left developers frustrated. And email products woefully haven’t become collaborative or extensible. We want to change that, by creating a modern layer for email, contacts, and calendar. Our mission is to build elegant products for large complex systems."
   },
   {
     "name": "VINA",
+    "link": "https://vina.io/",
     "image": "assets/logos/vina.png",
     "seeking": "Full-time, Internships",
     "work": "International Visas Accepted",
@@ -22,6 +25,7 @@
   },
   {
     "name": "Tophatter",
+    "link": "https://tophatter.com/",
     "image": "assets/logos/tophatter.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -29,6 +33,7 @@
   },
   {
     "name": "Granular",
+    "link": "https://www.granular.ag/",
     "image": "assets/logos/granular.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -36,13 +41,15 @@
   },
   {
     "name": "Atipica",
+    "link": "https://www.atipica.co/",
     "image": "assets/logos/atipica.png",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
-  	"description": "Analytics and insights into your funnel trends."
+  	"description": "Analytics and insights into your funnel trends. By extracting information from your ATS and resume data, we have created a business intelligence solution tailored to your company's recruiting history and hiring needs."
   },
   {
     "name": "ReSchedule Med",
+    "link": "https://reschedulemed.com",
     "image": "assets/logos/reschedulemed.png",
     "seeking": "Fall & Spring Semester Part Time",
     "work": "Permanent Residency Accepted",
@@ -50,6 +57,7 @@
   },
   {
     "name": "University of Illinois at Urbana-Champaign, School of Information Sciences",
+    "link": "https://ischool.illinois.edu/",
     "image": "assets/logos/uiucschoolofinfosci.png",
     "seeking": "Fall & Spring Semester Part Time",
     "work": "International Visas Accepted",
@@ -57,6 +65,7 @@
   },
   {
     "name": "Gigster",
+    "link": "https://gigster.com",
     "image": "assets/logos/gigster.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -64,6 +73,7 @@
   },
   {
     "name": "ThinkB1G",
+    "link": "http://thinkb1g.com",
     "image": "assets/logos/thinkb1g.jpg",
     "seeking": "Full-time, Co-op, Internship",
     "work": "International Visas Accepted",
@@ -71,6 +81,7 @@
   },
   {
     "name": "Flexport",
+    "link": "https://www.flexport.com",
     "image": "assets/logos/flexport.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -78,6 +89,7 @@
   },
   {
     "name": "CloudFlare",
+    "link": "https://www.cloudflare.com",
     "image": "assets/logos/cloudflare.jpg",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -85,20 +97,23 @@
   },
   {
     "name": "Truepad",
+    "link": "https://www.truepad.com",
     "image": "assets/logos/truepad.jpg",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
-  	"description": "Next generation real estate search."
+  	"description": "Discover insights you can't get anywhere else. Is this a good value? What are the best features? What do I need to be aware of? What is the price estimate? Truepad answers these questions for you by displaying the highest rated homes reviewed by local, top agents."
   },
   {
     "name": "NextCapital Group",
+    "link": "https://nextcapital.com",
     "image": "assets/logos/nextcapitalgroup.jpg",
     "seeking": "Full-time, Summer Internship",
     "work": "Permanent Residency Accepted",
-  	"description": "NextCapital provides the only personal benchmarking tool to help you clearly understand how your investments are performing relative to your own investment ... "
+  	"description": "The mission of NextCapital Software, Inc. (NextCapital) is to deliver personal, objective, affordable and world-class portfolio solutions to investors everywhere."
   },
   {
     "name": "Akuna Capital",
+    "link": "http://www.akunacapital.com",
     "image": "assets/logos/akunacapital.jpg",
     "seeking": "Full Time, Summer Internship",
     "work": "International Visas Accepted",
@@ -106,44 +121,50 @@
   },
   {
     "name": "Sprout Social",
+    "link": "http://sproutsocial.com",
     "image": "assets/logos/sproutsocial.png",
     "seeking": "Summer Internship",
     "work": "U.S. Citizens",
-  	"description": "Social media management software"
+  	"description": "Founded in 2010, Sprout Social is built on the idea that the world is better when businesses and customers communicate freely. We exist to help streamline and enhance those conversations—with customers, prospects and enthusiasts. Our platform is packed with handy features but stays out of the way to let brands easily engage with people and build lasting relationships."
   },
   {
     "name": "Andreessen Horowitz",
+    "link": "https://a16z.com",
     "image": "assets/logos/a16z.png",
     "seeking": "Summer Internship",
     "work": "U.S. Citizens",
-  	"description": "a16z is a venture capital firm."
+  	"description": "Andreessen Horowitz backs bold entrepreneurs who move fast, think big, and are committed to building the next major franchises in technology. Founded by Marc Andreessen and Ben Horowitz, the firm provides entrepreneurs with access to expertise and insights in innovation, executive and technical talent, market intelligence, policy and regulatory affairs, business development, and marketing and brand-building."
   },
   {
     "name": "Databricks",
+    "link": "https://databricks.com",
     "image": "assets/logos/databricks.png",
     "seeking": "Full-time",
     "work": "Permanent Residency Accepted",
-  	"description": "Data Science made easy, powered by Apache Spark."
+  	"description": "Databricks was founded out of the UC Berkeley AMPLab by the team that created Apache Spark. We’ve been working for the past six years on cutting-edge systems to extract value from Big Data. We believe that Big Data is a huge opportunity that is still largely untapped, and we’re working to revolutionize what you can do with it."
   },
   {
     "name": "Clustrix",
+    "link": "http://www.clustrix.com",
     "image": "assets/logos/clustrix.png",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
-  	"description": "ClustrixDB is the world's leading scale-out NewSQL database, engineered for the cloud."
+  	"description": "Clustrix provides the leading scale-out relational database engineered for the cloud or data center. ClustrixDB is a drop-in replacement for MySQL and an ideal solution for high-transaction, high-value workloads typically found in businesses such as ad tech, e-commerce, gaming and large web and mobile businesses. Our customers use ClustrixDB for critical business applications that support massive transactional volume and real-time reporting of business performance metrics. ClustrixDB delivers more than twenty-five trillion transactions per month for customers including AOL, Flipkart, MakeMyTrip, Choxi, Photobox, Rakuten and Symantec."
   },
   {
     "name": "Uptake Technologies, Inc",
+    "link": "http://uptake.com",
     "image": "assets/logos/uptaketechnologies.png",
     "seeking": "Summer Internship",
     "work": "International Visas Accepted",
-  	"description": "We help companies understand and act on their data. Uptake is building the singular platform that defines data-driven insight in major global industries."
+  	"description": "We help companies understand and act on their data. Uptake is building the singular platform that defines data-driven insight in major global industries. We unlock answers, and our answers create value."
   },
   {
     "name": "Qualtrics",
+    "link": "https://www.qualtrics.com",
     "image": "assets/logos/qualtrics.png",
     "seeking": "Full-time",
     "work": "U.S. Citizens",
-  	"description": "The Qualtrics Insight Platform makes sophisticated research simple and empowers users to capture customer market and employee insights in one place."
+  	"description": "Qualtrics gives organizations complete control over their customer experience programs. Respond to customer needs, analyze trends, and make changes in real time. Qualtrics is easy to use, extremely flexible, and automates processes that drive action."
   }
 ]
