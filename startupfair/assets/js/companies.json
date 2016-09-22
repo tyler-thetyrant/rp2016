@@ -4,146 +4,146 @@
     "image": "assets/logos/reconstruct.png",
     "seeking": "Full-time, Summer Internship",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "Predictive Computer Vision Data Analytics on Construction Sites"
   },
   {
     "name": "Nylas",
     "image": "assets/logos/nylas.jpg",
     "seeking": "Co-Op",
     "work": "Permanent Residency Accepted",
-	"description": ""
+  	"description": "The best email app for sales professionals"
   },
   {
     "name": "VINA",
     "image": "assets/logos/vina.png",
     "seeking": "Full-time, Internships",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "Connecting awesome women for fun, for work, for life."
   },
   {
     "name": "Tophatter",
     "image": "assets/logos/tophatter.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "Tophatter is the world's most entertaining live auction site featuring gorgeous items at exclusive prices."
   },
   {
     "name": "Granular",
     "image": "assets/logos/granular.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "Granular, a new kind of farm management software and analytics platform, helps you make the right calls and helps your team get more done."
   },
   {
     "name": "Atipica",
     "image": "assets/logos/atipica.png",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
-	"description": ""
+  	"description": "Analytics and insights into your funnel trends."
   },
   {
     "name": "ReSchedule Med",
     "image": "assets/logos/reschedulemed.svg",
     "seeking": "Fall & Spring Semester Part Time",
     "work": "Permanent Residency Accepted",
-	"description": ""
+  	"description": "Spring scheduling has never been this easy! ReSchedule Med provides an end-to-end work flow to manage graduate medical education scheduling."
   },
   {
     "name": "University of Illinois at Urbana-Champaign, School of Information Sciences",
     "image": "assets/logos/uiucschoolofinfosci.png",
     "seeking": "Fall & Spring Semester Part Time",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "The University of Illinois School of Information Sciences is recognized as a premier institution, consistently named the top LIS school in the nation. The School has earned its reputation by creating pioneering and innovative educational opportunities, including the oldest extant LIS doctoral program in the country (1948), our award-winning Leep online learning program (1996), and an advanced degree in digital libraries (2005)."
   },
   {
     "name": "Gigster",
     "image": "assets/logos/gigster.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "Gigster is the fastest and easiest way to build your custom tech. Website design, app development and custom software on demand."
   },
   {
     "name": "ThinkB1G",
     "image": "assets/logos/thinkb1g.jpg",
     "seeking": "Full-time, Co-op, Internship",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "ThinkB1G enables startups and high-growth companies to excel at university recruiting. "
   },
   {
     "name": "Flexport",
     "image": "assets/logos/flexport.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "Flexport helps companies import products. We are a licensed customs brokerage and freight forwarder built around an online dashboard."
   },
   {
     "name": "CloudFlare",
     "image": "assets/logos/cloudflare.svg",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "CloudFlare is a free global CDN, DNS, DDoS protection & web security provider that can speed up and protect any site online."
   },
   {
     "name": "Truepad",
     "image": "assets/logos/truepad.jpg",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
-	"description": ""
+  	"description": "Next generation real estate search."
   },
   {
     "name": "NextCapital Group",
     "image": "assets/logos/nextcapitalgroup.png",
     "seeking": "Full-time, Summer Internship",
     "work": "Permanent Residency Accepted",
-	"description": ""
+  	"description": "NextCapital provides the only personal benchmarking tool to help you clearly understand how your investments are performing relative to your own investment ... "
   },
   {
     "name": "Akuna Capital",
     "image": "assets/logos/akunacapital.jpg",
     "seeking": "Full Time, Summer Internship",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "We don't just trade the market. We make the market."
   },
   {
     "name": "Sprout Social",
     "image": "assets/logos/sproutsocial.png",
     "seeking": "Summer Internship",
     "work": "U.S. Citizens",
-	"description": ""
+  	"description": "Social media management software"
   },
   {
     "name": "Andreessen Horowitz",
     "image": "",
     "seeking": "Summer Internship",
     "work": "U.S. Citizens",
-	"description": ""
+  	"description": "a16z is a venture capital firm."
   },
   {
     "name": "Databricks",
     "image": "assets/logos/databricks.png",
     "seeking": "Full-time",
     "work": "Permanent Residency Accepted",
-	"description": ""
+  	"description": "Data Science made easy, powered by Apache Spark."
   },
   {
     "name": "Clustrix",
     "image": "assets/logos/clustrix.png",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
-	"description": ""
+  	"description": "ClustrixDB is the world's leading scale-out NewSQL database, engineered for the cloud."
   },
   {
     "name": "Uptake Technologies, Inc",
     "image": "assets/logos/uptaketechnologies.svg",
     "seeking": "Summer Internship",
     "work": "International Visas Accepted",
-	"description": ""
+  	"description": "We help companies understand and act on their data. Uptake is building the singular platform that defines data-driven insight in major global industries."
   },
   {
     "name": "Qualtrics",
     "image": "assets/logos/qualtrics.svg",
     "seeking": "Full-time",
     "work": "U.S. Citizens",
-	"description": ""
+  	"description": "The Qualtrics Insight Platform makes sophisticated research simple and empowers users to capture customer market and employee insights in one place."
   }
 ]
