@@ -4,10 +4,12 @@
     "image": "assets/logos/reconstruct.png",
     "seeking": "Full-time, Summer Internship",
     "work": "International Visas Accepted",
-  	"description": "Predictive Computer Vision Data Analytics on Construction Sites"
+  	"description": "Predictive Computer Vision Data Analytics on Construction Sites",
+    "link": "http://researchpark.illinois.edu/directory/reconstruct-inc"
   },
   {
     "name": "Nylas",
+    "link": "https://www.nylas.com/",
     "image": "assets/logos/nylas.png",
     "seeking": "Co-Op",
     "work": "Permanent Residency Accepted",
@@ -15,6 +17,7 @@
   },
   {
     "name": "VINA",
+    "link": "https://vina.io/",
     "image": "assets/logos/vina.png",
     "seeking": "Full-time, Internships",
     "work": "International Visas Accepted",
@@ -22,6 +25,7 @@
   },
   {
     "name": "Tophatter",
+    "link": "https://tophatter.com/",
     "image": "assets/logos/tophatter.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -29,6 +33,7 @@
   },
   {
     "name": "Granular",
+    "link": "https://www.granular.ag/",
     "image": "assets/logos/granular.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -36,6 +41,7 @@
   },
   {
     "name": "Atipica",
+    "link": "https://www.atipica.co/",
     "image": "assets/logos/atipica.png",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
@@ -43,6 +49,7 @@
   },
   {
     "name": "ReSchedule Med",
+    "link": "https://reschedulemed.com",
     "image": "assets/logos/reschedulemed.png",
     "seeking": "Fall & Spring Semester Part Time",
     "work": "Permanent Residency Accepted",
@@ -50,6 +57,7 @@
   },
   {
     "name": "University of Illinois at Urbana-Champaign, School of Information Sciences",
+    "link": "https://ischool.illinois.edu/",
     "image": "assets/logos/uiucschoolofinfosci.png",
     "seeking": "Fall & Spring Semester Part Time",
     "work": "International Visas Accepted",
@@ -57,6 +65,7 @@
   },
   {
     "name": "Gigster",
+    "link": "https://gigster.com",
     "image": "assets/logos/gigster.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -64,6 +73,7 @@
   },
   {
     "name": "ThinkB1G",
+    "link": "http://thinkb1g.com",
     "image": "assets/logos/thinkb1g.jpg",
     "seeking": "Full-time, Co-op, Internship",
     "work": "International Visas Accepted",
@@ -71,6 +81,7 @@
   },
   {
     "name": "Flexport",
+    "link": "https://www.flexport.com",
     "image": "assets/logos/flexport.png",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -78,6 +89,7 @@
   },
   {
     "name": "CloudFlare",
+    "link": "https://www.cloudflare.com",
     "image": "assets/logos/cloudflare.jpg",
     "seeking": "Full-time",
     "work": "International Visas Accepted",
@@ -85,6 +97,7 @@
   },
   {
     "name": "Truepad",
+    "link": "https://www.truepad.com",
     "image": "assets/logos/truepad.jpg",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
@@ -92,6 +105,7 @@
   },
   {
     "name": "NextCapital Group",
+    "link": "https://nextcapital.com",
     "image": "assets/logos/nextcapitalgroup.jpg",
     "seeking": "Full-time, Summer Internship",
     "work": "Permanent Residency Accepted",
@@ -99,6 +113,7 @@
   },
   {
     "name": "Akuna Capital",
+    "link": "http://www.akunacapital.com",
     "image": "assets/logos/akunacapital.jpg",
     "seeking": "Full Time, Summer Internship",
     "work": "International Visas Accepted",
@@ -106,6 +121,7 @@
   },
   {
     "name": "Sprout Social",
+    "link": "http://sproutsocial.com",
     "image": "assets/logos/sproutsocial.png",
     "seeking": "Summer Internship",
     "work": "U.S. Citizens",
@@ -113,6 +129,7 @@
   },
   {
     "name": "Andreessen Horowitz",
+    "link": "https://a16z.com",
     "image": "assets/logos/a16z.png",
     "seeking": "Summer Internship",
     "work": "U.S. Citizens",
@@ -120,6 +137,7 @@
   },
   {
     "name": "Databricks",
+    "link": "https://databricks.com",
     "image": "assets/logos/databricks.png",
     "seeking": "Full-time",
     "work": "Permanent Residency Accepted",
@@ -127,6 +145,7 @@
   },
   {
     "name": "Clustrix",
+    "link": "http://www.clustrix.com",
     "image": "assets/logos/clustrix.png",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
@@ -134,6 +153,7 @@
   },
   {
     "name": "Uptake Technologies, Inc",
+    "link": "http://uptake.com",
     "image": "assets/logos/uptaketechnologies.png",
     "seeking": "Summer Internship",
     "work": "International Visas Accepted",
@@ -141,6 +161,7 @@
   },
   {
     "name": "Qualtrics",
+    "link": "https://www.qualtrics.com",
     "image": "assets/logos/qualtrics.png",
     "seeking": "Full-time",
     "work": "U.S. Citizens",
