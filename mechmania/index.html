@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reflections | Projections 2016 : Mechmania</title>
+    <title>R|P 2016 : MechMania</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -14,46 +17,201 @@
 <body>
 
     <div class="header">
-        <div class="header-content">
-            <img src="./assets/img/logo/logo.png"><br><br>
-            <a class="btn btn-danger" href="#">Register!</a>
+        <div class="header-content row">
+            <div class="logo col-xs-12 col-sm-4">
+                <img src="./assets/img/logo/logo.png" />
+            </div>
+
+            <div class="title col-xs-12 col-sm-8">
+                <h1 class="header-title special-font">MechMania</h1>
+                <h5 style="color:gray">ACM@UIUC's 24 hour AI Hackathon</h5>
+                <a href="https://acmrp.typeform.com/to/PxCnjG" class="btn btn-lg mm-button btn-danger">Register</a>
+            </div>
         </div>
+
+        <div class="header-scroll-indicator"><h3><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> Scroll down!</h3></div>
     </div>
 
-    <div class="frame-container">
-        <div id="frame" class="frame">
-            <img id="frame-content" src="./assets/img/svg/rp1.svg">
+    <div class="container">
+        <div class="spacer"></div>
+
+        <div class="sponsors text-danger text-center">
+            Magic sponsored by<br><br>
+            <img src="./assets/img/sponsor/palantir.png" />
         </div>
-    </div>
-    <div class="scroll-indicator">
-        <h3>Scroll down!</h3>
-    </div>
 
-    <div class="spacer"></div>
-    <div id="trigger-1" class="spacer s1"></div>
-    <div id="trigger-2" class="spacer s1"></div>
-    <div id="trigger-3" class="spacer s1"></div>
-    <div id="trigger-4" class="spacer s1"></div>
-    <div id="trigger-5" class="spacer s1"></div>
-    <div id="trigger-6" class="spacer s1"></div>
-    <div id="trigger-7" class="spacer s1"></div>
-    <div id="trigger-8" class="spacer s1"></div>
-    <div id="trigger-9" class="spacer s1"></div>
-    <div id="trigger-10" class="spacer s1"></div>
-    <div id="trigger-11" class="spacer s1"></div>
+        <div class="spacer"></div>
 
-    <div class="footer">
-        <div class="footer-content">
-            <a href="#" class="btn btn-danger">Register!</a>
+        <div class="about text-center">
+            <h1 class="about-title special-font">What is MechMania?</h1>
+            <br>
+            <p class="about-subtitle">
+                MechMania is a 24 hour Game AI hackathon, as part of Reflections | Projections 2016 at the University of Illinois at Urbana-Champaign.
+                We’ll unveil the game and the rules at the MM opening, but here are the basics:
+                You will have 24 hours to develop an AI to play this game.
+                A tournament during the closing ceremony will determine the best AIs.
+                The top three teams that made the best AI gets awesome prizes.
+                <br/>
+                <br />
+                The open ceremony is on Friday, September 30th, at 9 PM CST and the closing ceremony is on Saturday, October 1st, at 8 PM CST in the Siebel Center for Computer Science.
+                The ceremonies will take place in room 1404 and the hacking will take place in room 2405.
+            </p>
         </div>
+
+        <div class="spacer"></div>
+
+        <div id="trigger1"></div>
+        <div id="pin1">
+            <div id="frame" class="frame text-center">
+                <img id="frame-content" src="./assets/img/svg/rp1.svg" />
+                <h3 id="frame-content-title" class="special-font">This is you and your team</h3>
+                <h5 id="frame-content-subtitle">You’ll be working in a team of up to four people</h5>
+                <br>
+                <h5 class="frame-scroll-indicator"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> Keep scrolling!</h5>
+            </div>
+        </div>
+
+        <div class="spacer s2"></div>
+
+        <div class="prizes text-center">
+            <h1 class="special-font">The top 3 teams win prizes</h1>
+            <br>
+            <div class="list-group">
+                <div class="list-group-item prize-item">
+                    <h3 class="list-group-item-heading text-danger">1st Place</h3>
+                    <div class="list-group-item-text">
+                        Pixel C &amp; a Medieval Knight's Sword
+                    </div>
+                </div>
+                <div class="list-group-item prize-item">
+                    <h3 class="list-group-item-heading text-danger">2nd Place</h3>
+                    <div class="list-group-item-text">
+                        Fossil Founder Q
+                    </div>
+                </div>
+                <div class="list-group-item prize-item">
+                    <h3 class="list-group-item-heading text-danger">3rd Place</h3>
+                    <div class="list-group-item-text">
+                        Amazon Echo
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="faq text-center">
+            <h1 class="special-font">Frequently Asked Questions</h1>
+            <br>
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    How large can teams be?
+                </h3>
+
+                <p class="faq-answer">
+                    You can have up to 4 people in a team. Yes, you can work individually if you’d like. No, you can’t share team members with other teams.
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    What will I be working with?
+                </h3>
+
+                <p class="faq-answer">
+                    You need to get your own laptop and you can use whatever software tools you’d like.
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    Do I need prior AI experience?
+                </h3>
+
+                <p class="faq-answer">
+                    No. In fact, most of our winning teams have no prior experience. We’ll also have a sessions to teach Game AI basics which you’re welcome to attend.
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    How do the prizes work?
+                </h3>
+
+                <p class="faq-answer">
+                    A tournament after the 24 hour period will determine the 3 best teams. Each person on the teams will get a prize to avoid prize splitting issues.
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    When and where will this be?
+                </h3>
+
+                <p class="faq-answer">
+                    MechMania is a part of Reflections | Projections. MechMania opens on Friday, September 30 night after the keynote speaker at R|P. The hacking will be in Siebel 2405.
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    Can I join last minute?
+                </h3>
+
+                <p class="faq-answer">
+                    Yes :) Just walk in, and we’ll get you set up. But we’d prefer if you actually registered so that we know how much food and swag to arrange.
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    Will there be free food?
+                </h3>
+
+                <p class="faq-answer">
+                    Yes! We can’t have you hacking hungry!
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    Will there be a place to sleep?
+                </h3>
+
+                <p class="faq-answer">
+                    Yes. We’ll arrange a dungeon ;) (Don’t worry, we have this sorted)
+                </p>
+            </div>
+
+            <div class="faq-item text-left">
+                <h3 class="faq-question">
+                    Can I collaborate with other teams?
+                </h3>
+
+                <p class="faq-answer">
+                    Yes. In fact, we encourage open collaboration across teams. However each team must create their own submission.
+                </p>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="footer">
+            <div class="footer-image">
+                <img src="./assets/img/footer/footer.png">
+            </div>
+
+            <div class="footer-register">
+                <a href="https://acmrp.typeform.com/to/PxCnjG" class="btn btn-footer mm-button btn-danger">Register!</a>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
     </div>
 
-    <script
-            src="https://code.jquery.com/jquery-3.1.0.js"
-            integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
-            crossorigin="anonymous">
-    </script>
 
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
     <script src="./assets/js/ScrollMagic.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>

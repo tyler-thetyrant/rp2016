@@ -1,19 +1,22 @@
-$( document ).ready(function() {
+$(function() {
+    var source = $("#companies-template").html();
+    var template = Handlebars.compile(source);
     $.getJSON('assets/js/companies.json', function (data) {
-        for (var index in data) {
-            var company = data[index];
-            var $mainPane = $("<div>", {"class": "row company-card"});
-            $mainPane.append("<img src='" + company.image +  "' class='col-sm-12 col-lg-3'/>");
-            var textDiv = $("<div>", {"class": "col-sm-12 col-lg-9"})
-            textDiv.append($("<p></p>").text(company.description));
-            textDiv.append($("<p></p>")
-                            .append($("<span style='font-weight:bold'>Opportunities: </span>"))
-                            .append($("<span></span>").text(company.seeking)));
-            textDiv.append($("<p></p>")
-                            .append($("<span style='font-weight:bold'>Work Authorization: </span>"))
-                            .append($("<span></span>").text(company.work)));
-            $mainPane.append(textDiv);
-            $(".companies-list").append($mainPane);
-        }
+        var html = template(data);
+        $('#companies-list').html(html);
+        // company_card_resize();
+        
     });
+
+    // $( window ).resize(function() {
+    //     company_card_resize();
+    // });
 });
+
+// company_card_resize = function() {
+//     var max_height = Math.max.apply(null, $(".company-card").map(function(){
+//         return $(this).height();
+//     }).get());
+//     console.log(max_height);
+//     $('.company-card').height(max_height)
+// };

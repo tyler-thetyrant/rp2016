@@ -4,21 +4,66 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/favicon.png" sizes="16x16" type="image/png">
     <title>R|P 2016 : Job Fair</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <div class="main-section">
-        <h1 class="title">Job Fair</h1>
-        <div class="companies-list"></div>
+        <div class="title-area">
+            <h1 class="title">Job Fair</h1>
+            <p style="text-align:center">September 30th, 10:30 AM to 4:30 PM<br />
+            <a href="https://cs.illinois.edu/contact-us/directions-siebel-center">Siebel Center</a></p>
+        </div>
+        <img class="img-responsive" src="assets/logos/map.png"/>
+        <p class="sponsor-interest">
+            Interested in sponsoring? Contact us at
+            <a href="mailto:corporate@acm.illinois.edu">
+                corporate@acm.illinois.edu
+            </a>
+        </p>
+        <h3 class="subtitle">Companies</h3>
+        <div id="companies-list"></div>
     </div>
+
+    <!-- Scripts -->
     <script
         src="https://code.jquery.com/jquery-3.1.0.js"
         integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
         crossorigin="anonymous">
+    </script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"
+        integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script id="companies-template" type="text/x-handlebars-template">
+        {{#each this}}
+        <div class="row company-card">
+            <div class="company-card-logo col-md-12 col-lg-3">
+                <a href="{{link}}">
+                    <img src="{{image}}">
+                </a>
+            </div>
+            <div class="col-md-12 col-lg-9 company-text">
+                <p>
+                    {{description}}
+                </p>
+                <p>
+                     <span style="font-weight:bold">Opportunities: </span>
+                     <span>{{seeking}}</span>
+                </p>
+                <p>
+                     <span style="font-weight:bold">Work Authorization: </span>
+                     <span>{{work}}</span>
+                </p>
+             </div>
+         </div>
+         {{/each}}
     </script>
     <script src="assets/js/main.js"></script>
 </body>
